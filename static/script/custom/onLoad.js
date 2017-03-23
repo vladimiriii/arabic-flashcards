@@ -157,7 +157,7 @@ $(document).ready(function(){
             language = $("#language-list").val();
 
             // Get Random IDs
-            rand_ids = getRandomIds(data, 4);
+            rand_ids = getRandomIds(data, 4, category);
 
             // Populate Cards
             populateCards(data, rand_ids, language);
