@@ -40,6 +40,10 @@ body {
 }
 
 /* Cards */
+.card-text {
+    display: inline-block;
+}
+
  .card-div {
      padding: 1em 1em 1em 1em;
  }

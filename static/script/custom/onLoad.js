@@ -21,6 +21,22 @@ function buildIndicatorList(div, dataset) {
 
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+
+};
+function resizeText(cardNo, ft, bt1, bt2) {
+    if (language != "arabic") {
+        if (ft.length > 7) {
+            $("#" + "card" + cardNo + "-front").css("font-size", "30pt");
+        };
+    };
+
+    if (bt1.length > 7) {
+        $("#" + "card" + cardNo + "-back1").css("font-size", "30pt");
+    };
+
+    if (bt2.length > 7) {
+        $("#" + "card" + cardNo + "-back2").css("font-size", "30pt");
+    };
 };
 
 function getCategoryList(array) {
@@ -94,9 +110,13 @@ function populateCards(array, ids, front) {
         $(backHtmlID).empty();
 
         // Add New Values
-        $(frontHtmlID).append('<p class="card-text">' + frontText + '</p>');
-        $(backHtmlID).append('<p class="card-text">' + backText1 + '</p>');
-        $(backHtmlID).append('<p class="card-text">' + backText2 + '</p>');
+        $(frontHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-front">' + frontText + '</p>');
+        $(backHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-back1">' + backText1 + '</p><br>');
+        $(backHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-back2">' + backText2 + '</p>');
+
+        // Reduce Font Size for Longer Strings
+        resizeText(String(index + 1), frontText, backText1, backText2);
+
     };
 };
 
