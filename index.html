@@ -65,6 +65,7 @@
 		</div>
         <!-- Page Content -->
         <div class="row">
+            <!-- Tool Bar -->
             <div class="col-md-2" id="toolbar">
                 <div class="row" style="text-align: center">
                     <p class="toolbar-text">Front of Cards</p>
@@ -86,17 +87,42 @@
                 <br>
                 <div class="row" style="text-align: center">
                     <button type="button" class="btn btn-default" id="refresh-btn">
-                        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Refresh
+                        <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> New Cards
                     </button>
                 </div>
+                <br>
+                <div class="row" style="text-align: center">
+                    <h3>Score</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-4" id="correct-count">
+                            <p>Correct</p>
+                        </div>
+                        <div class="col-md-6 col-sm-4" id="wrong-count">
+                            <p>Incorrect</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <button type="button" class="btn btn-default" id="reset-score">Reset Scores</button>
+                    </div>
+                </div>
             </div>
+            <!-- Flip Cards -->
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-md-6 card-div">
                         <section class="card-container">
                             <div class="card" id="card1">
                                 <div class="front"></div>
-                                <div class="back"></div>
+                                <div class="back" id="card1-back">
+                                    <br>
+                                    <button type="button" class="btn btn-default correct-btn">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </button>
+                                    <button type="button" class="btn btn-default wrong-btn">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -104,7 +130,15 @@
                         <section class="card-container">
                             <div class="card" id="card2">
                                 <div class="front"></div>
-                                <div class="back"></div>
+                                <div class="back" id="card2-back">
+                                    <br>
+                                    <button type="button" class="btn btn-default correct-btn">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </button>
+                                    <button type="button" class="btn btn-default wrong-btn">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -114,7 +148,15 @@
                         <section class="card-container">
                             <div class="card" id="card3">
                                 <div class="front"></div>
-                                <div class="back"></div>
+                                <div class="back" id="card3-back">
+                                    <br>
+                                    <button type="button" class="btn btn-default correct-btn">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </button>
+                                    <button type="button" class="btn btn-default wrong-btn">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -122,7 +164,15 @@
                         <section class="card-container">
                             <div class="card" id="card4">
                                 <div class="front"></div>
-                                <div class="back"></div>
+                                <div class="back" id="card4-back">
+                                    <br>
+                                    <button type="button" class="btn btn-default correct-btn">
+                                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                    </button>
+                                    <button type="button" class="btn btn-default wrong-btn">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+                                </div>
                             </div>
                         </section>
                     </div>

@@ -39,6 +39,15 @@ body {
     outline: 0 !important;
 }
 
+#cor-count {
+    font-size: 30px;
+    color: #0080ff;
+}
+#wro-count {
+    font-size: 30px;
+    color: #ffa64d;
+}
+
 /* Cards */
 .card-text {
     display: inline-block;

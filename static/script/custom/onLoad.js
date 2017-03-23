@@ -4,6 +4,8 @@ Global Variables
 var languages = ["arabic", "english", "transcribed"],
     language = "arabic",
     category = "All",
+    correct = 0,
+    wrong = 0,
     rand_ids;
 
 /*-----------------------------------
@@ -13,7 +15,7 @@ Functions
 function buildIndicatorList(div, dataset) {
 	$("#" + div).empty();
     //console.log(dataset);
-    for (key in dataset){
+    for (key in dataset) {
         text = "<option value='" + dataset[key] + "'>" + capitalizeFirstLetter(dataset[key]) + "</option>";
         $("#" + div).append(text);
     };
@@ -26,16 +28,16 @@ function capitalizeFirstLetter(string) {
 function resizeText(cardNo, ft, bt1, bt2) {
     if (language != "arabic") {
         if (ft.length > 7) {
-            $("#" + "card" + cardNo + "-front").css("font-size", "30pt");
+            $("#" + "card" + cardNo + "-ft").css("font-size", "30pt");
         };
     };
 
     if (bt1.length > 7) {
-        $("#" + "card" + cardNo + "-back1").css("font-size", "30pt");
+        $("#" + "card" + cardNo + "-bt").css("font-size", "30pt");
     };
 
     if (bt2.length > 7) {
-        $("#" + "card" + cardNo + "-back2").css("font-size", "30pt");
+        $("#" + "card" + cardNo + "-bt").css("font-size", "30pt");
     };
 };
 
@@ -106,13 +108,12 @@ function populateCards(array, ids, front) {
         backHtmlID = '#card' + String(index + 1) + ' .back';
 
         // Empty Old Values
-        $(frontHtmlID).empty();
-        $(backHtmlID).empty();
+        $(frontHtmlID + ' p').remove();
+        $(backHtmlID + ' p').remove();
 
         // Add New Values
-        $(frontHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-front">' + frontText + '</p>');
-        $(backHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-back1">' + backText1 + '</p><br>');
-        $(backHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-back2">' + backText2 + '</p>');
+        $(frontHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-ft">' + frontText + '</p>');
+        $(backHtmlID).prepend('<p class="card-text" id="card' + String(index + 1) + '-bt">' + backText1 + '<br>' +  backText2 + '</p>');
 
         // Reduce Font Size for Longer Strings
         resizeText(String(index + 1), frontText, backText1, backText2);
@@ -142,6 +143,10 @@ $(document).ready(function(){
     $("#language-list").val(language);
     buildIndicatorList("category-list", categories);
 
+    // Initialize Scoreboard
+    $('#correct-count').append('<span id="cor-count">0</span>');
+    $('#wrong-count').append('<span id="wro-count">0</span>');
+
     // Get Random numbers
     rand_ids = getRandomIds(data, 4, category);
 
@@ -167,8 +172,15 @@ $(document).ready(function(){
 
     // On Language Change
     $("#language-list").change(function(){
+
         // Unflip all Cards
         unflipCards();
+
+        // Reset all Buttons
+        for (var index = 1; index <= 4; ++index) {
+            $('#card' + index + "-back :button").attr("disabled", false);
+            $('#card' + index + '-back').css("background-color", "#FFFFD6");
+        };
 
         // Update Cards (delayed so answer is not revealed)
         setTimeout(function() {
@@ -188,6 +200,12 @@ $(document).ready(function(){
     $("#category-list").change(function(){
         // Unflip all Cards
         unflipCards();
+
+        // Reset all Buttons
+        for (var index = 1; index <= 4; ++index) {
+            $('#card' + index + "-back :button").attr("disabled", false);
+            $('#card' + index + '-back').css("background-color", "#FFFFD6");
+        };
 
         // Update Cards (delayed so answer is not revealed)
         setTimeout(function() {
@@ -209,6 +227,12 @@ $(document).ready(function(){
         // Unflip all Cards
         unflipCards();
 
+        // Reset all buttons and colors
+        for (var index = 1; index <= 4; ++index) {
+            $('#card' + index + "-back :button").attr("disabled", false);
+            $('#card' + index + '-back').css("background-color", "#FFFFD6");
+        };
+
         // Update Cards (delayed so answer is not revealed)
         setTimeout(function() {
 
@@ -228,4 +252,34 @@ $(document).ready(function(){
         }, 500);
     });
 
+    // Keeping Score
+    $('.correct-btn').click(function() {
+        event.stopPropagation();
+        var cardID = $(this).parent().attr('id');
+        correct = correct + 1;
+        $('#correct-count span').remove();
+        $('#correct-count').append('<span id="cor-count">' + String(correct) + '</span>');
+        $('#' + cardID + " :button").attr("disabled", true);
+        $('#' + cardID).css("background-color", "#a5d2ff");
+
+    });
+    $('.wrong-btn').click(function() {
+        event.stopPropagation();
+        var cardID = $(this).parent().attr('id');
+        wrong = wrong + 1;
+        $('#wrong-count span').remove();
+        $('#wrong-count').append('<span id="wro-count">' + String(wrong) + '</span>');
+        $('#' + cardID + " :button").attr("disabled", true);
+        $('#' + cardID).css("background-color", "#ffd3a8");
+    });
+
+    $('#reset-score').click(function() {
+        correct = 0;
+        wrong = 0;
+        $('#correct-count span').remove();
+        $('#wrong-count span').remove();
+        $('#correct-count').append('<span id="cor-count">' + String(correct) + '</span>');
+        $('#wrong-count').append('<span id="wro-count">' + String(wrong) + '</span>');
+    });
+    
 });
