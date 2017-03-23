@@ -1,0 +1,147 @@
+@font-face{
+  font-family:"CustomFont";
+  src:url("Monda-Regular.ttf");
+}
+
+body {
+  font-family: CustomFont, sans-serif;
+  padding-right: 0;
+  background-color: #F8F8F8;
+  font-size:  13px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0px;
+    height: 70px;
+}
+
+.navbar-brand {
+	font-size: 40px;
+}
+
+.nav-tabs.nav-justified>li>a {
+	font-size:12px;
+	color: black;
+	background-color: #D1D1D1;
+	padding: 5px 0px 5px 0px;
+	margin-top: 5px;
+}
+
+/* Toolbar */
+#toolbar {
+    margin: 1em 1em 1em;
+}
+
+#refresh-btn.active {
+    color: #b53fff !important;
+    box-shadow: 0px 0px 5px 2px #b53fff;
+    outline: 0 !important;
+}
+
+/* Cards */
+ .card-div {
+     padding: 1em 1em 1em 1em;
+ }
+
+.card-container {
+    width: 300px;
+    height: 260px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid black;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+  background: #E7CFF5;
+  padding-top: 0.5em;
+  color: #2D0C3F;
+  font-size: 60px;
+}
+.card .back {
+    background: #FFFFD6;
+    color: #121201;
+    padding-top: 0.5em;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+/* Footer */
+.page-footer {
+    text-align: center;
+    margin-top:10px;
+    color: #000000;
+    width:100%;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, .15), 0 2px 5px rgba(0, 0, 0, .075);
+}
+
+.share-btn {
+    display: inline-block;
+    border-radius: 50px;
+    color: #777;
+    border: 2px solid #777;
+    padding: 0.5em;
+    width: 2.8em;
+    opacity: 0.9;
+    outline: none;
+    text-align: center;
+}
+
+.share-btn.facebook:hover {
+    color: #FFFFFF;
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+}
+
+.share-btn.twitter:hover {
+    color: #FFFFFF;
+    background-color: #00aced;
+    border: 2px solid #00aced;
+}
+
+.share-btn.home:hover {
+    color: #FFFFFF;
+    background-color: #FFA62D;
+    border: 2px solid #FFA62D;
+}
