@@ -72,16 +72,15 @@ function getRandomIds(array, entries, cat) {
     while (i < entries) {
         new_rand = Math.floor(Math.random() * all_recs);
         new_id = array[new_rand]["id"];
-        if ($.inArray(new_id, ids) == -1 && typeof new_id !== "undefined") {
+        if ($.inArray(new_id, ids) == -1 && typeof new_id !== "undefined" && $.inArray(new_id, rand_ids) == -1) {
             ids.push(new_id);
             i = i + 1;
         };
     };
-
-    return ids;
+    rand_ids = ids;
 };
 
-function populateCards(array, ids, front) {
+function populateCards(array, front) {
     var id,
         engText,
         araText,
@@ -98,8 +97,8 @@ function populateCards(array, ids, front) {
     };
 
     // Get Text and Append to Cards
-    for (var index = 0; index < (ids.length); ++index) {
-        id = ids[index];
+    for (var index = 0; index < (rand_ids.length); ++index) {
+        id = rand_ids[index];
         record = $.grep(array, function(e){ return e.id == id; });
         frontText = record[0][front];
         backText1 = record[0][back_entries[0]];
@@ -148,10 +147,10 @@ $(document).ready(function(){
     $('#wrong-count').append('<span id="wro-count">0</span>');
 
     // Get Random numbers
-    rand_ids = getRandomIds(data, 4, category);
+    getRandomIds(data, 4, category);
 
     // Populate Cards
-    populateCards(data, rand_ids, language);
+    populateCards(data, language);
 
     // Flip cards on click
     $('#card1').click(function() {
@@ -189,10 +188,10 @@ $(document).ready(function(){
             language = $("#language-list").val();
 
             // Get Random IDs
-            rand_ids = getRandomIds(data, 4, category);
+            getRandomIds(data, 4, category);
 
             // Populate Cards
-            populateCards(data, rand_ids, language);
+            populateCards(data, language);
         }, 250);
     });
 
@@ -214,10 +213,10 @@ $(document).ready(function(){
             category = $("#category-list").val();
 
             // Get Random IDs
-            rand_ids = getRandomIds(data, 4, category);
+            getRandomIds(data, 4, category);
 
             // Populate Cards
-            populateCards(data, rand_ids, language);
+            populateCards(data, language);
         }, 250);
     });
 
@@ -240,10 +239,10 @@ $(document).ready(function(){
             language = $("#language-list").val();
 
             // Get Random IDs
-            rand_ids = getRandomIds(data, 4, category);
+            getRandomIds(data, 4, category);
 
             // Populate Cards
-            populateCards(data, rand_ids, language);
+            populateCards(data, language);
         }, 250);
 
         // Gives more satisfying click
@@ -281,5 +280,5 @@ $(document).ready(function(){
         $('#correct-count').append('<span id="cor-count">' + String(correct) + '</span>');
         $('#wrong-count').append('<span id="wro-count">' + String(wrong) + '</span>');
     });
-    
+
 });

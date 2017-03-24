@@ -3,6 +3,9 @@
   src:url("Monda-Regular.ttf");
 }
 
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+.droid-arabic-kufi{font-family: 'Droid Arabic Kufi', serif;}
+
 body {
   font-family: CustomFont, sans-serif;
   padding-right: 0;
