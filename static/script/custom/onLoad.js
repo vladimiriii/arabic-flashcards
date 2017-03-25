@@ -32,12 +32,12 @@ function resizeText(cardNo, ft, bt1, bt2) {
         };
     };
 
-    if (bt1.length > 7) {
+    if (bt1.length > 7 || bt2.length > 7) {
         $("#" + "card" + cardNo + "-bt").css("font-size", "30pt");
     };
 
-    if (bt2.length > 7) {
-        $("#" + "card" + cardNo + "-bt").css("font-size", "30pt");
+    if (bt1.length > 11 || bt2.length > 11) {
+        $("#" + "card" + cardNo + "-bt").css("font-size", "25pt");
     };
 };
 
