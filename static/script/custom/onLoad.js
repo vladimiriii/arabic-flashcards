@@ -26,19 +26,35 @@ function capitalizeFirstLetter(string) {
 
 };
 function resizeText(cardNo, ft, bt1, bt2) {
+    // Arabic does not need to be resized
     if (language != "arabic") {
         if (ft.length > 7) {
             $("#" + "card" + cardNo + "-ft").css("font-size", "30pt");
         };
+
+        if (ft.length > 11) {
+            $("#" + "card" + cardNo + "-ft").css("font-size", "25pt");
+        };
+
+    } else if (language == "arabic") {
+        if (bt1.length > 7) {
+            $("#" + "card" + cardNo + "-bt1").css("font-size", "30pt");
+        };
+
+        if (bt1.length > 11) {
+            $("#" + "card" + cardNo + "-bt1").css("font-size", "25pt");
+        };
+    }
+
+    // Second back text is never Arabic and always needs to be resized
+    if (bt2.length > 7) {
+        $("#" + "card" + cardNo + "-bt2").css("font-size", "30pt");
     };
 
-    if (bt1.length > 7 || bt2.length > 7) {
-        $("#" + "card" + cardNo + "-bt").css("font-size", "30pt");
+    if (bt2.length > 11) {
+        $("#" + "card" + cardNo + "-bt2").css("font-size", "25pt");
     };
 
-    if (bt1.length > 11 || bt2.length > 11) {
-        $("#" + "card" + cardNo + "-bt").css("font-size", "25pt");
-    };
 };
 
 function getCategoryList(array) {
@@ -110,10 +126,14 @@ function populateCards(array, front) {
         $(frontHtmlID + ' p').remove();
         $(backHtmlID + ' p').remove();
 
-        // Add New Values
-        $(frontHtmlID).append('<p class="card-text" id="card' + String(index + 1) + '-ft">' + frontText + '</p>');
-        $(backHtmlID).prepend('<p class="card-text" id="card' + String(index + 1) + '-bt">' + backText1 + '<br>' +  backText2 + '</p>');
-
+        if (language == "arabic") {
+            // Add New Values
+            $(frontHtmlID).append('<p class="card-text" lang="ar" id="card' + String(index + 1) + '-ft">' + frontText + '</p>');
+            $(backHtmlID).prepend('<p class="card-text" lang="en" id="card' + String(index + 1) + '-bt1">' + backText1 + '</p><p class="card-text" lang="en" id="card' + String(index + 1) + '-bt2">' +  backText2 + '</p>');
+        } else {
+            $(frontHtmlID).append('<p class="card-text" lang="en" id="card' + String(index + 1) + '-ft">' + frontText + '</p>');
+            $(backHtmlID).prepend('<p class="card-text" lang="ar" id="card' + String(index + 1) + '-bt1">' +  backText1 + '</p><p class="card-text" lang="en" id="card' + String(index + 1) + '-bt2">' +  backText2 + '</p>');
+        };
         // Reduce Font Size for Longer Strings
         resizeText(String(index + 1), frontText, backText1, backText2);
 

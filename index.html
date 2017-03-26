@@ -53,8 +53,14 @@
 			<nav class="navbar navbar-default">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="">Arabic Flash Cards</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-right" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="collapse navbar-collapse" id="collapse-right">
 					<ul class="nav navbar-nav navbar-right">
                         <li><a id="about" href="" data-toggle="modal">About This Project</a></li>
 						<li><a href="http://brettromero.com/">Other Projects</a></li>
@@ -75,7 +81,6 @@
                         <select id="language-list" class="form-control eco-select"></select>
                     </div>
                 </div>
-                <br>
                 <div class="row" style="text-align: center">
                     <p class="toolbar-text">Category</p>
                 </div>
@@ -84,24 +89,21 @@
                         <select id="category-list" class="form-control eco-select"></select>
                     </div>
                 </div>
-                <br>
                 <div class="row" style="text-align: center">
                     <button type="button" class="btn btn-default" id="refresh-btn">
                         <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> New Cards
                     </button>
                 </div>
-                <br>
                 <div class="row" style="text-align: center">
                     <h3>Score</h3>
                     <div class="row">
-                        <div class="col-md-6 col-sm-4" id="correct-count">
+                        <div class="col-xs-6" id="correct-count">
                             <p>Correct</p>
                         </div>
-                        <div class="col-md-6 col-sm-4" id="wrong-count">
+                        <div class="col-xs-6" id="wrong-count">
                             <p>Incorrect</p>
                         </div>
                     </div>
-                    <br>
                     <div class="row">
                         <button type="button" class="btn btn-default" id="reset-score">Reset Scores</button>
                     </div>
@@ -115,7 +117,6 @@
                             <div class="card" id="card1">
                                 <div class="front"></div>
                                 <div class="back" id="card1-back">
-                                    <br>
                                     <button type="button" class="btn btn-default correct-btn">
                                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                                     </button>
@@ -131,7 +132,6 @@
                             <div class="card" id="card2">
                                 <div class="front"></div>
                                 <div class="back" id="card2-back">
-                                    <br>
                                     <button type="button" class="btn btn-default correct-btn">
                                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                                     </button>
@@ -149,7 +149,6 @@
                             <div class="card" id="card3">
                                 <div class="front"></div>
                                 <div class="back" id="card3-back">
-                                    <br>
                                     <button type="button" class="btn btn-default correct-btn">
                                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                                     </button>
@@ -165,7 +164,6 @@
                             <div class="card" id="card4">
                                 <div class="front"></div>
                                 <div class="back" id="card4-back">
-                                    <br>
                                     <button type="button" class="btn btn-default correct-btn">
                                         <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                                     </button>

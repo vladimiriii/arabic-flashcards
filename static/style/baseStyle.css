@@ -1,16 +1,18 @@
 @font-face{
-  font-family:"CustomFont";
-  src:url("Monda-Regular.ttf");
+    font-family:"CustomFont";
+    src:url("Monda-Regular.ttf");
 }
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-.droid-arabic-kufi{font-family: 'Droid Arabic Kufi', serif;}
-
 body {
-  font-family: CustomFont, sans-serif;
-  padding-right: 0;
-  background-color: #F8F8F8;
-  font-size:  13px;
+    font-family: CustomFont, sans-serif;
+    padding-right: 0;
+    background-color: #F8F8F8;
+    font-size:  13px;
+}
+
+p:lang(ar) {
+    font-family: "Courier New", serif;
+    font-size: 70px;
 }
 
 /* Navbar */
@@ -36,6 +38,11 @@ body {
     margin: 1em 1em 1em;
 }
 
+.eco-select {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 #refresh-btn.active {
     color: #b53fff !important;
     box-shadow: 0px 0px 5px 2px #b53fff;
@@ -52,16 +59,12 @@ body {
 }
 
 /* Cards */
-.card-text {
-    display: inline-block;
-}
-
  .card-div {
      padding: 1em 1em 1em 1em;
  }
 
 .card-container {
-    width: 300px;
+    max-width: 300px;
     height: 260px;
     margin: 0 auto;
     position: relative;
@@ -90,7 +93,6 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-    font-size: 50px;
     position: absolute;
     border-radius: 10px;
     border: 1px solid black;
@@ -102,6 +104,7 @@ body {
 .card .front {
   background: #E7CFF5;
   padding-top: 0.5em;
+  font-size: 60px;
   color: #2D0C3F;
   font-size: 60px;
 }
@@ -109,6 +112,7 @@ body {
     background: #FFFFD6;
     color: #121201;
     padding-top: 0.5em;
+    font-size: 40px;
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
@@ -120,7 +124,6 @@ body {
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
 }
-
 
 /* Footer */
 .page-footer {
@@ -160,4 +163,22 @@ body {
     color: #FFFFFF;
     background-color: #FFA62D;
     border: 2px solid #FFA62D;
+}
+
+@media screen and (max-width: 992px) and (min-width: 450px) {
+    .form-control {
+    	padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 360px)  {
+    .navbar-brand {
+    	font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar-brand {
+    	font-size: 20px;
+    }
 }
