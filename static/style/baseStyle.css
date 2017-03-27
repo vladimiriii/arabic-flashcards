@@ -16,11 +16,6 @@ p:lang(ar) {
 }
 
 /* Navbar */
-.navbar {
-    margin-bottom: 0px;
-    height: 70px;
-}
-
 .navbar-brand {
 	font-size: 40px;
 }
@@ -31,6 +26,10 @@ p:lang(ar) {
 	background-color: #D1D1D1;
 	padding: 5px 0px 5px 0px;
 	margin-top: 5px;
+}
+
+#about {
+    cursor: pointer;
 }
 
 /* Toolbar */
@@ -61,6 +60,7 @@ p:lang(ar) {
 /* Cards */
  .card-div {
      padding: 1em 1em 1em 1em;
+     cursor: pointer;
  }
 
 .card-container {

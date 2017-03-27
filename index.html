@@ -53,18 +53,17 @@
 			<nav class="navbar navbar-default">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="">Arabic Flash Cards</a>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-right" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-right">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
 				</div>
-				<div class="collapse navbar-collapse" id="collapse-right">
+				<div class="navbar-collapse collapse" id="collapse-right">
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a id="about" href="" data-toggle="modal">About This Project</a></li>
+                        <li><a id="about" data-toggle="modal" data-target="#aboutModal">About This Project</a></li>
 						<li><a href="http://brettromero.com/">Other Projects</a></li>
-						<li><a id="credits" href="" data-toggle="modal">Credits</a></li>
 					</ul> <!-- navbar-collapse -->
 				</div>
 			</nav>
@@ -209,6 +208,24 @@
 		        </div>
 		    </footer>
 		</div>
+        <!-- About Modal -->
+    	<div class="row">
+    	    <div class="modal fade" data-backdrop="static" data-keyboard="false" id="aboutModal" role="dialog">
+    	        <div class="modal-dialog" style="width:40%;">
+    	            <!-- Modal content-->
+    	            <div class="modal-content">
+    	                <div class="navbar-collapse modal-header">
+    	                    <button type="button" class="btn btn-default" id="close" style="float:right" data-dismiss="modal">Close</button>
+    	                    <h2 style="text-align: center">About This Project</h2>
+    	                </div>
+    	                <div class="modal-body">
+    						<p>This project was created to help quickly generate flash cards based on translations provided in a simple spreadsheet. The advantage of this approach is that adding, editing and deleting the words to be shown on the flashcards is a simple and quick process, allowing teachers, students and anyone else to maintain an effective tool that may not be available for many languages.</p>
+                            <p>If you wish to discuss setting up this tool for your own use, additional features, or anything else, please use the contact methods provided at the bottom of the page, <a href="mailto:brett.romero@outlook.com">email me</a> or visit me at <a href="http://brettromero.com">http://brettromero.com</a>.
+    					</div>
+    	            </div>
+    	        </div>
+    	    </div>
+    	</div>
 	</div>
 </body>
 </html>
