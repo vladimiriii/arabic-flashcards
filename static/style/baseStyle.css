@@ -28,6 +28,10 @@ p:lang(ar) {
 	margin-top: 5px;
 }
 
+.modal-dialog {
+    width: 40%;
+}
+
 #about {
     cursor: pointer;
 }
@@ -165,9 +169,13 @@ p:lang(ar) {
     border: 2px solid #FFA62D;
 }
 
-@media screen and (max-width: 992px) and (min-width: 450px) {
+@media screen and (max-width: 992px) {
     .form-control {
     	padding-bottom: 0px;
+    }
+
+    .modal-dialog {
+        width: 95%;
     }
 }
 
