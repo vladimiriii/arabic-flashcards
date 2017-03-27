@@ -6,7 +6,9 @@ var languages = ["arabic", "english", "transcribed"],
     category = "All",
     correct = 0,
     wrong = 0,
-    rand_ids;
+    cardCount = 4,
+    allIds = [],
+    currentIds;
 
 /*-----------------------------------
 Functions
@@ -25,36 +27,29 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 
 };
+
 function resizeText(cardNo, ft, bt1, bt2) {
     // Arabic does not need to be resized
     if (language != "arabic") {
-        if (ft.length > 7) {
-            $("#" + "card" + cardNo + "-ft").css("font-size", "30pt");
-        };
-
         if (ft.length > 11) {
             $("#" + "card" + cardNo + "-ft").css("font-size", "25pt");
+        } else if (ft.length > 7) {
+            $("#" + "card" + cardNo + "-ft").css("font-size", "30pt");
         };
-
     } else if (language == "arabic") {
-        if (bt1.length > 7) {
-            $("#" + "card" + cardNo + "-bt1").css("font-size", "30pt");
-        };
-
         if (bt1.length > 11) {
             $("#" + "card" + cardNo + "-bt1").css("font-size", "25pt");
+        } else if (bt1.length > 7) {
+            $("#" + "card" + cardNo + "-bt1").css("font-size", "30pt");
         };
-    }
+    };
 
     // Second back text is never Arabic and always needs to be resized
-    if (bt2.length > 7) {
-        $("#" + "card" + cardNo + "-bt2").css("font-size", "30pt");
-    };
-
     if (bt2.length > 11) {
         $("#" + "card" + cardNo + "-bt2").css("font-size", "25pt");
+    } else if (bt2.length > 7) {
+        $("#" + "card" + cardNo + "-bt2").css("font-size", "30pt");
     };
-
 };
 
 function getCategoryList(array) {
@@ -70,7 +65,10 @@ function getCategoryList(array) {
     return finalList;
 };
 
-function getRandomIds(array, entries, cat) {
+function createIDList(array, cat) {
+    // Reinitialize allIds
+    allIds = [];
+
     // Filter data for the category
     if (cat != "All") {
         var array = array.filter( function(itm) {
@@ -78,22 +76,48 @@ function getRandomIds(array, entries, cat) {
         });
     };
 
-    var ids = [],
-        all_recs = array.length,
-        new_rand = 0,
-        new_rec,
-        new_id,
-        i = 0;
-
-    while (i < entries) {
-        new_rand = Math.floor(Math.random() * all_recs);
-        new_id = array[new_rand]["id"];
-        if ($.inArray(new_id, ids) == -1 && typeof new_id !== "undefined" && $.inArray(new_id, rand_ids) == -1) {
-            ids.push(new_id);
-            i = i + 1;
-        };
+    for (key in array) {
+        allIds.push(array[key]["id"])
     };
-    rand_ids = ids;
+
+    // Randomize Array
+    allIds = shuffle(allIds);
+};
+
+function shuffle(array) {
+  var currentIndex = array.length,
+      temporaryValue,
+      randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+    };
+
+  return array;
+};
+
+function getRandomIds(array, entries) {
+    var idsRemaining = allIds.length;
+
+    if (idsRemaining >= entries) {
+        currentIds = allIds.slice(0, entries);
+        allIds = allIds.slice(entries, allIds.length);
+    } else {
+        currentIds = allIds;
+        var addIDsNeeded = entries - idsRemaining;
+        createIDList(data, category);
+        currentIds = currentIds.concat(allIds.slice(0, addIDsNeeded));
+        allIds = allIds.slice(addIDsNeeded, allIds.length);
+    };
 };
 
 function populateCards(array, front) {
@@ -113,8 +137,8 @@ function populateCards(array, front) {
     };
 
     // Get Text and Append to Cards
-    for (var index = 0; index < (rand_ids.length); ++index) {
-        id = rand_ids[index];
+    for (var index = 0; index < (currentIds.length); ++index) {
+        id = currentIds[index];
         record = $.grep(array, function(e){ return e.id == id; });
         frontText = record[0][front];
         backText1 = record[0][back_entries[0]];
@@ -142,7 +166,7 @@ function populateCards(array, front) {
 
 // Unflip all Cards
 function unflipCards() {
-    for (var index = 1; index <= (4); ++index) {
+    for (var index = 1; index <= cardCount; ++index) {
         if ($('#card' + index).hasClass('flipped')) {
             $('#card' + index).toggleClass('flipped');
         };
@@ -167,7 +191,8 @@ $(document).ready(function(){
     $('#wrong-count').append('<span id="wro-count">0</span>');
 
     // Get Random numbers
-    getRandomIds(data, 4, category);
+    createIDList(data, category);
+    getRandomIds(data, cardCount);
 
     // Populate Cards
     populateCards(data, language);
@@ -196,7 +221,7 @@ $(document).ready(function(){
         unflipCards();
 
         // Reset all Buttons
-        for (var index = 1; index <= 4; ++index) {
+        for (var index = 1; index <= cardCount; ++index) {
             $('#card' + index + "-back :button").attr("disabled", false);
             $('#card' + index + '-back').css("background-color", "#FFFFD6");
         };
@@ -207,8 +232,9 @@ $(document).ready(function(){
             // Get Selected Language
             language = $("#language-list").val();
 
-            // Get Random IDs
-            getRandomIds(data, 4, category);
+            // Get IDs
+            createIDList(data, category);
+            getRandomIds(data, cardCount);
 
             // Populate Cards
             populateCards(data, language);
@@ -221,7 +247,7 @@ $(document).ready(function(){
         unflipCards();
 
         // Reset all Buttons
-        for (var index = 1; index <= 4; ++index) {
+        for (var index = 1; index <= cardCount; ++index) {
             $('#card' + index + "-back :button").attr("disabled", false);
             $('#card' + index + '-back').css("background-color", "#FFFFD6");
         };
@@ -232,8 +258,9 @@ $(document).ready(function(){
             // Get Selected category
             category = $("#category-list").val();
 
-            // Get Random IDs
-            getRandomIds(data, 4, category);
+            // Get IDs
+            createIDList(data, category);
+            getRandomIds(data, cardCount);
 
             // Populate Cards
             populateCards(data, language);
@@ -247,7 +274,7 @@ $(document).ready(function(){
         unflipCards();
 
         // Reset all buttons and colors
-        for (var index = 1; index <= 4; ++index) {
+        for (var index = 1; index <= cardCount; ++index) {
             $('#card' + index + "-back :button").attr("disabled", false);
             $('#card' + index + '-back').css("background-color", "#FFFFD6");
         };
@@ -259,7 +286,7 @@ $(document).ready(function(){
             language = $("#language-list").val();
 
             // Get Random IDs
-            getRandomIds(data, 4, category);
+            getRandomIds(data, cardCount);
 
             // Populate Cards
             populateCards(data, language);
