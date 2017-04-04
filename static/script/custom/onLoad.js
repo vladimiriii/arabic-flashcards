@@ -56,7 +56,7 @@ function getCategoryList(array) {
     var finalList = ["All"];
     var cat;
 
-    for (var index = 0; index < (array.length); ++index) {
+    for (var index = 0; index < array.length; ++index) {
         cat = array[index]["category"];
         if ($.inArray(cat, finalList) == -1) {
             finalList.push(cat);
@@ -112,11 +112,20 @@ function getRandomIds(array, entries) {
         currentIds = allIds.slice(0, entries);
         allIds = allIds.slice(entries, allIds.length);
     } else {
-        currentIds = allIds;
+        currentIds = allIds.slice(0, allIds.length);
         var addIDsNeeded = entries - idsRemaining;
         createIDList(data, category);
-        currentIds = currentIds.concat(allIds.slice(0, addIDsNeeded));
-        allIds = allIds.slice(addIDsNeeded, allIds.length);
+        while (currentIds.length < entries) {
+            var newValue = allIds[0];
+            // Check if item is already selected
+            if (currentIds.indexOf(newValue) == -1) {
+                currentIds.push(newValue);
+                allIds.splice(0, 1);
+            } else {
+                // If it is, move item to end of array
+                allIds.push(allIds.splice(0, 1)[0]);
+            };
+        };
     };
 };
 
