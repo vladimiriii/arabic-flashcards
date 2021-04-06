@@ -1,8 +1,8 @@
 /*-----------------------------------
 Global Variables
 -----------------------------------*/
-var languages = ["arabic", "english", "transcribed"],
-    language = "arabic",
+var languages = ["japanese", "english", "transcribed"],
+    language = "japanese",
     category = "All",
     correct = 0,
     wrong = 0,
@@ -29,14 +29,13 @@ function capitalizeFirstLetter(string) {
 };
 
 function resizeText(cardNo, ft, bt1, bt2) {
-    // Arabic does not need to be resized
-    if (language != "arabic") {
+    if (language != "japanese") {
         if (ft.length > 11) {
             $("#" + "card" + cardNo + "-ft").css("font-size", "25pt");
         } else if (ft.length > 7) {
             $("#" + "card" + cardNo + "-ft").css("font-size", "30pt");
         };
-    } else if (language == "arabic") {
+    } else if (language == "japanese") {
         if (bt1.length > 11) {
             $("#" + "card" + cardNo + "-bt1").css("font-size", "25pt");
         } else if (bt1.length > 7) {
@@ -44,7 +43,6 @@ function resizeText(cardNo, ft, bt1, bt2) {
         };
     };
 
-    // Second back text is never Arabic and always needs to be resized
     if (bt2.length > 11) {
         $("#" + "card" + cardNo + "-bt2").css("font-size", "25pt");
     } else if (bt2.length > 7) {
@@ -159,7 +157,7 @@ function populateCards(array, front) {
         $(frontHtmlID + ' p').remove();
         $(backHtmlID + ' p').remove();
 
-        if (language == "arabic") {
+        if (language == "japanese") {
             // Add New Values
             $(frontHtmlID).append('<p class="card-text" lang="ar" id="card' + String(index + 1) + '-ft">' + frontText + '</p>');
             $(backHtmlID).prepend('<p class="card-text" lang="en" id="card' + String(index + 1) + '-bt1">' + backText1 + '</p><p class="card-text" lang="en" id="card' + String(index + 1) + '-bt2">' +  backText2 + '</p>');

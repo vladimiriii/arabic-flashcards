@@ -12,12 +12,14 @@ for line in file.readlines():
     try:
         t = { 'word': line.split(',')[1],
               'kanji': line.split(',')[2],
-              'meaning': line.split(',')[3]}
+              'id': line.split(',')[0],
+              'meaning': line.split(',')[4],
+              'category': line.split(',')[3]}
     except Exception:
         print line + " is wrongly formatted" 
     json_string += json.dumps(t, ensure_ascii=False)+","
 file.close()
-json_string = "var data = " + json_string + ";"
+json_string = "var data = [" + json_string + "];"
 
 # Write to file
 text_file = open("jdata.js", "w")
