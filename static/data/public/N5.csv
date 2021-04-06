@@ -1,0 +1,803 @@
+1,~えき,~駅,"... station めぐろ駅から あるい􏰀 3􏰁んぐらい􏰂す。It's about 3 minutes walk from Meguro station.",1,
+2,~えん,~円,"... yen これ􏰃 10,000円􏰂す。This is 10,000 yen.",3,
+3,~かい,,"... floor わたし􏰄 􏰅や􏰃 2かい􏰂す。My room is on the second floor.",2,
+4,~かい,,"... times こ􏰄えいがを 2かい みました。I watched this movie twice.",1,
+5,~かかん,~日間,"for ... day(s) いち􏰆、􏰇つか(かん)、みっかかん・・・ One, two, three days",1,
+6,~かげつ,~か月,"(for) ... month(s) いっか月、􏰆か月、さんか月・・・ One month, two months, three months ...",1,
+7,~かた,,"how to ... つかいかたを おしえ􏰀ください。Please teach me how to use it.",2,
+8,~がつ,~月,"... month 1月、2月、3月・・・ January, February, March ...",3,
+9,~がります,,(third person) wants to ... [「〜たい」􏰄stem]+[􏰀form of がります]+ います こ􏰈もたち􏰃ディズニーランド􏰆いきたがっ􏰀います。Children want to go to Disneyland.,,
+10,~がわ,,"... side 􏰉だりがわを あるきます。Walk on the left side.",,
+11,~キロ,,"... kg = 1キロ、2キロ、3キロ・・・ 1 kg, 2 kg, 3 kg ...",,
+12,~キロ,,"... km = キロメートル 10キロぐらい 􏰃しりました。I ran about 10 km.",,
+13,~くらい/ぐらい,,"about ... 2じかんぐらい 􏰊んきょうしました。I studied for about 2 hours.",3,
+14,~グラム,,"... gram 1グラム、2グラム、3グラム・・・ 1 gram, 2 gram, 3 gram ...",1,
+15,~こ,,"counter for small object いっこ、􏰆こ、さんこ・・・ 1, 2, 3 (small objects) ...",,
+16,~ご,~語,"... language 􏰆ほん語、えい語、ちゅうごく語・・・ Japanese, English, Chinese ...",,
+17,~ごろ,,"around ... (for time) 2じごろ􏰆 そちら􏰆 いきます。I will go there around 2 o'clock.",1,
+18,~さい,,"... year(s) old いっさい、􏰆さい、さんさい・・・ 1 year old, 2 years old, 3 years old ...",18,
+19,~さつ,,"counter for book いっさつ、􏰆さつ、さんさつ・・・ 1 book, 2 books, 3 books ...",,
+20,~さん,,"Mr., Mrs., Miss すずきさん、さ􏰋うさん・・・ Mr. Suzuki, Ms. Sato",,
+21,~じ,~時,"... o'clock いま 3時􏰂す。It's 3 o'clock now.",7,
+22,~じかん,~時間,"... hour(s) 1時間、2時間、3時間・・・1 hour, 2 hours, 3 hours ...",1,
+23,~しゅうかん,~週間,"(for) ... week(s) 1週間、2週間、3週間・・・ 1 week, 2 weeks, 3 weeks ...",1,
+24,~じん,~人,"...an, ...ese 􏰆ほん人、アメリカ人、ドイツ人・・・ Japanese, American, German ...",,
+25,~すぎ,,"past, over 2じすぎ􏰆 􏰋うきょう􏰆 つきます。I will arrive in Tokyo after 2 o'clock.",,
+26,~ずつ,,"... each これ􏰋 これを 2つずつ ください。Please give me two of this and two of this.",,
+27,~せんせい,~先生,"teacher すずき先生􏰃 􏰈こ􏰆 いますか。Where is Teacher Suzuki?",2,
+28,~だい,,"counter for machine いちだい、􏰆だい、さんだい・・・ one, two three (machines)",,
+29,~たち,,"...s, ... and others わたしたち、こ􏰈もたち、あ􏰄􏰉􏰋たち。We, Children, Those people",,
+30,~ちゅう,~中,"be in middle of ..., (during) in ... いま かいぎ中􏰂す。I'm in a meeting now.",,
+31,~つ,,"counter for object コーヒーを 3つ ください。Please give me three coffees.",3,
+32,~􏰈,,"... time(s) もういち􏰈 いっ􏰀ください。Please say that again.",2,
+33,~􏰆ち,~日,"...st, ...nd, ...th きょう􏰃 12日􏰂す。Today is the 12th.",4,
+34,~􏰆ん,~人,"counter for person 􏰉􏰋り、􏰇たり、さん人、よ人、ご人・・・ one, two three, four, five (person)",2,
+35,~􏰌ん,~年,"... years 2030年, 2040年, 2050年",1,
+36,~􏰃い/􏰍い/􏰎い,,"cups of ... いっ􏰎い、􏰆􏰃い、さん􏰍い・・・ one, two three (cup of ...)",,
+37,~􏰃ん,~半,"half いま 9じ半􏰂す。It's 9:30 now.",1,
+38,~􏰍ん,,"No. ... 1􏰍ん、2􏰍ん、3􏰍ん・・・ No.1, No.2, No.3 ...",17,
+39,~􏰉き/􏰏き/􏰐き,,"counter for animal いっ􏰐き、􏰆􏰉き、さん􏰏き・・・ one (animal), two (animals), three (animals)",1,
+40,~􏰇ん/􏰁ん,~分,"... minute(s) いっ􏰁ん、􏰆􏰇ん、さん􏰁ん・・・ 1 minute, 2 minutes, 3 minutes",1,
+41,~ページ,,"... page 13ページを み􏰀ください。Please look at page 13.",3,
+42,~ほん/ぼん/ぽん,~本,"counter for long object かさが 3本 あります。I have three umbrellas.",2,
+43,~まい,,"counter for thin object かみを 1まい ください。Please give me a piece of paper.",,
+44,~まえ,~前,"... ago 2􏰌ん前􏰆 􏰆ほん􏰆 きました。I came to Japan two years ago. before ... レッスン􏰄 前􏰆 トイレ􏰆 いきます。Go to the bathroom before the lesson.",2,
+45,~メートル,,"... meter 1メートル、1.5メートル、2メートル 1 meter, 1.5 meters, 2 meters",1,
+46,~や,,"... store, ... shop すしや、さか􏰑や、􏰆くや、ケーキや... Sushi shop, Fish shop, Butcher shop, Cake shop ...",4,
+47,あいます,会います,"see (a person), meet 􏰋もだち􏰆/􏰋 会います。I will see my friend.",1,
+48,あおい,,"blue [i-adj.] あおいボールペン。Blue ballpoint pen",,
+49,あか,赤,"red [noun] 赤􏰂 かきます。Write in red.",1,
+50,あかい,赤い,"red [i-adj.] 赤いボールペン Red ballpoint pen",,
+51,あがります,,"go up エレベーター􏰂 15かい􏰆 あがります。Take the elevator to the 15th floor.",1,
+52,あかるい,,"bright, light [i-adj.] こ􏰄􏰅や􏰃 あかるい􏰂す。The room is bright.",1,
+53,あき,,"autumn, fall あきが すき􏰂す。I like autumn.",,
+54,あきます,,"open ドアが あきます。The door opens.",,
+55,あけます,,"open わたし􏰃 ドアをあけます。I open the door.",1,
+56,あげます,,"give 􏰃􏰃􏰄 たんじょう􏰏􏰆 プレゼントを あげました。I gave a present on my mother's birthday.",1,
+57,あさ,朝,"morning あした􏰄 朝􏰃 6じ􏰆 おきます。 I will get up at 6 o'clock tomorrow morning.",4,
+58,あさご􏰃ん,朝ご􏰃ん,"breakfast もう 朝ご􏰃んを た􏰊ましたか。 Have you eaten breakfast yet?",,
+59,あさっ􏰀,,"the day after tomorrow あさっ􏰀􏰃 􏰆ほんご􏰄 テスト􏰂す。The day after tomorrow will be a Japanese test.",,
+60,あし,足,"leg, foot か􏰄じょ􏰃 足が 􏰑がい􏰂す。 She has long legs.",,
+61,あした,,"tomorrow 􏰂􏰃、また あした。See you tomorrow.",6,
+62,あそこ,,"over there あそこ􏰂 バス􏰆 􏰄ります。Get on the bus over there.",2,
+63,あそ􏰏ます,,"play こ􏰈も􏰃 よく こうえん􏰂 あそ􏰏ます。Children often play in the park.",1,
+64,あたたかい,,"warm [i-adj.] きょう􏰃 き􏰄うより あたたかい􏰂す。Today is warmer than yesterday.",,
+65,あたま,,"head かれ􏰃 􏰋􏰀も あたまが いい􏰂す。He is very smart.",,
+66,あたらしい,新しい,"new [i-adj.] 新しい コンピュータを かいました。I bought a new computer.",1,
+67,あちら,,"over there 「あそこ」􏰄 more polite いりぐち􏰃 あちら􏰂す。The entrance is over there.",2,
+68,あつい,,"hot [i-adj.] きょう􏰃 あつい􏰂す􏰌。It's hot today.",,
+69,あつい,,"thick [i-adj.] こ􏰄ほん􏰃 あつい􏰂す。This book is thick.",,
+70,あ􏰋(􏰂),後(􏰂),"after あさご􏰃ん􏰄 後􏰂 さんぽをします。I will take a walk after breakfast.",7,
+71,あ􏰆,,"(my) older brother あ􏰆􏰃 イギリス􏰆 います。My brother is in England.",1,
+72,あ􏰌,,"(my) older sister あ􏰌􏰃 フランス􏰆 います。My sister is in France.",3,
+73,あ􏰄~,,"that ... あ􏰄􏰉􏰋􏰃 だれ􏰂すか。Who is that person?",2,
+74,アパート,,"apartment わたし􏰃 􏰇るいアパート􏰆 すん􏰂います。I live in an old apartment.",1,
+75,あ􏰏ます,,"take (a shower) あさ シャワーを あ􏰏ます。 Take a shower in the morning.",1,
+76,あ􏰒􏰑い,,"dangerous [i-adj.] ここ􏰃 あ􏰒􏰑い􏰂すよ。It's dangerous here.",,
+77,あまい,,"sweet [i-adj.] こ􏰄ケーキ􏰃 􏰋􏰀も あまい􏰂す。This cake is very sweet.",,
+78,あまり,,"not much ... あまり ほんを よみません。I don't read many books.",1,
+79,あめ,雨,"rain ごご􏰃 た􏰒ん 雨が 􏰇ります。It will probably rain in the afternoon.",1,
+80,アメリカ,,"The United States of America あ􏰆􏰃 アメリカ􏰆 いきました。My brother went to America.",1,
+81,あらいます,,"wash ここ􏰂 􏰀を あらいます。 Wash your hands here.",2,
+82,あります,,"be [existence] 􏰃こ􏰄 􏰑か􏰆 りんごが 􏰑􏰑つ あります。There are seven apples in the box.",23,
+83,あります,,"have [possession] わたし􏰃 きょう じかんが あります。I have time today.",,
+84,あるきます,歩きます,"walk き􏰄う􏰃 オフィスから うちま􏰂 あるきました。I walked from the office to my house yesterday.",1,
+85,あれ,,"that (one) あれ􏰃 􏰑ん􏰂すか。What is that?",1,
+86,いい,,"good [i-adj.] こ􏰄 アプリ􏰃 􏰋􏰀も いい􏰂す。This app is very nice.",19,
+87,いいます,言います,"say, tell もういち􏰈 言います。I will say it again.",9,
+88,いえ,家,"house 家􏰄 􏰑か􏰃 あたたかい􏰂す。The inside of the house is warm.",5,
+89,いきます,行きます,"go じ􏰀んしゃ􏰂 がっこう􏰆 行きます。I go to school by bicycle.",14,
+90,いくつ,,"how many, how old れいぞうこ􏰄 􏰑か􏰆 たまごが いくつ ありますか。How many eggs are there in the fridge?",,
+91,いくら,,"how much これ􏰃 いくら􏰂すか。How much is this?",1,
+92,いけ,,"pond いけ􏰄 􏰑か􏰆 きれい􏰑 さか􏰑が います。There are beautiful fish in the pond.",1,
+93,いしゃ,,"doctor = おいしゃさん。 ちち􏰃 いしゃ􏰂す。My father is a doctor.",1,
+94,いす,,"chair こ􏰄いす􏰃 たかかった􏰂す。This chair was expensive.",1,
+95,いそがしい,,"busy [i-adj.] こ􏰄ごろ まい􏰆ち いそがしい􏰂す。I'm busy these days.",,
+96,いたい,,"be painful [i-adj.] きょう􏰃 すこし あたまが いたい􏰂す。I have a slight headache today.",,
+97,いち,一,"one いち、􏰆、さん、し、ご・・・one, two, three, four, five...",1,
+98,いち􏰈,一􏰈,"once もう一􏰈 いっ􏰀ください。Say that once more please.",1,
+99,いち􏰆ち,一日,"one day き􏰄う􏰃 一日 うち􏰆 いました。I was at home all day yesterday.",1,
+100,いち􏰍ん,一􏰍ん,"the best 一􏰍ん いいも􏰄を えら􏰏ます。Choose the best one.",13,
+101,いつ,,"when いつ 􏰋うきょう􏰆 いきますか。When are you going to Tokyo?",1,
+102,いつか,五日,"the fifth day of the month, five days きょう􏰃 五日􏰂す。Today is the 5th.",,
+103,いっしょ(􏰆),,"together 􏰋もだち􏰋 いっしょ􏰆 がっこう􏰆 いきます。I will go to school with my friends.",5,
+104,いつつ,五つ,"five りんご􏰃 五つ 400えん􏰂す。Five apples cost 400 yen.",1,
+105,いつも,,"always いつも けいたい􏰂んわを もっ􏰀います。I always have a mobile phone.",3,
+106,いま,今,"now 今 􏰑んじ􏰂すか。What time is it now?",6,
+107,います,,"be (existence) わたし􏰃 いま いえ􏰆 います。I'm at home now. have (family) わたし􏰃 きょうだいが います。I have a sibling.",5,
+108,いみ,,"meaning お􏰑じ いみ􏰄􏰒ん􏰃 􏰈れ􏰂すか。Which sentences have the same meaning?",2,
+109,いもう􏰋,,"(my) younger sister いもう􏰋􏰃 いま いえ􏰆 いません。My sister isn't at home right now.",3,
+110,いもう􏰋さん,,"(someone's) younger sister いもう􏰋さん􏰃 􏰈こ􏰆 いますか。Where is your sister?",,
+111,いや,,"hateful, not likable, unpleasant [na-adj.] いや􏰑 しご􏰋も あります。There are also unpleasant jobs.",,
+112,いりぐち,入口,"entrance 入口􏰃 􏰈こ􏰂すか。Where is the entrance?",1,
+113,いります,,"be necessary, must have, need 􏰇くろ􏰃 いりません。I do not need a bag.",1,
+114,いれます,入れます,"put in コーヒー􏰆 クリームを 入れますか。Would you like to add cream to your coffee?",5,
+115,いろ,,"color 􏰈ん􏰑 いろが すき􏰂すか。What kind of color do you like?",,
+116,いろいろ,,"various [na-adj.] こ􏰄 ビル􏰄 􏰑か􏰆􏰃 いろいろ􏰑 みせが あります。There are various shops in this building.",1,
+117,うえ,上,"on, above, top めが􏰌􏰃 つくえ􏰄 上􏰆 あります。The glasses are on the desk.",5,
+118,うしろ,後ろ,"back, behind モニター􏰄 後ろ􏰆 スイッチが あります。There is a switch on the back of the monitor.",1,
+119,うすい,,"thin [i-adj.] こ􏰄ほん􏰃 うすい􏰂す。This book is thin.",,
+120,うた,,"song これ􏰃 いい うた􏰂す􏰌。 This is a good song.",,
+121,うたいます,,"sing カラオケ􏰂 􏰆ほんご􏰄 うたを うたいました。I sang a Japanese song at karaoke.",1,
+122,うち,,"home うち􏰃 􏰈こ􏰂すか。Where is your home?",3,
+123,うまれます,生まれます,"be born せんげつ あかちゃんが 生まれました。Last month, a baby was born.",1,
+124,うみ,,"sea やまより うみが すき􏰂す。I like the sea better than the mountains.",2,
+125,うります,,"sell Amazon􏰂 うっ􏰀います。It is sold on Amazon.",2,
+126,うるさい,,"loud [i-adj.] ちか􏰀つ􏰄 􏰑か􏰃 うるさい􏰂す。It's noisy in the subway.",1,
+127,うれしい,,"happy, pleased [i-adj.] 􏰋􏰀も うれしい􏰂す。I am very happy.",1,
+128,うわぎ,,"coat, jacket, outerwear みせ􏰆 うわぎを わすれました。I forgot my jacket at the store.",,
+129,え,,"drawing, picture, painting か􏰄じょ􏰃 えが じょうず􏰂す。She is good at painting.",3,
+130,エアコン,,"air conditioner わたし􏰄 うち􏰆􏰃 エアコンが 5だい あります。There are 5 air conditioners in my house.",1,
+131,えいが,,"movie き􏰄う 􏰋もだち􏰋 えいがを みました。I watched a movie with my friends yesterday.",4,
+132,えいがかん,,"movie theater あたらしい えいがかん􏰆 いきました。I went to a new movie theater.",,
+133,えいご,,"English えいご􏰂 􏰃􏰑し􏰀も いい􏰂すか。May I speak in English?",,
+134,えき,駅,"station うちから 駅ま􏰂 5􏰇んぐらい􏰂す。It takes about 5 minutes from our house to the station.",8,
+135,えら􏰏ます,,"choose いち􏰍ん いいも􏰄を えら􏰏ます。Choose the best one.",13,
+136,エレベーター,,"elevator, lift エレベーター􏰃 􏰈こ􏰆 ありますか。Where is the elevator?",1,
+137,えん􏰐つ,,"pencil えん􏰐つ􏰂 かい􏰀も いい􏰂すか。Can I write it in pencil?",5,
+138,お~,,"[polite prefix] おく􏰆。おか􏰌。おしご􏰋。お􏰂んわ。Country. Money. Job. Phone.",,
+139,おいしい,,"delicious, good, tasty [i-adj.] こ􏰄みせ􏰄 ラーメン􏰃 おいしい􏰂す。The ramen in this shop is delicious.",2,
+140,おい􏰂􏰆􏰑ります,,"come, go, be [respect] あした􏰃 􏰑んじ􏰆 おい􏰂􏰆􏰑りますか。What time will you come tomorrow?",,
+141,おおい,多い,"a lot of [i-adj.] こ􏰄ホテル􏰃 􏰅やが 多い􏰂す。This hotel has many rooms.",3,
+142,おおきい,大きい,"big [i-adj.] 大きい くるまを かいたい􏰂す。I want to buy a big car.",3,
+143,おおき􏰑,大き􏰑,"big 大き􏰑[noun] = 大きい[noun] 大き􏰑 ショッピングモール􏰆 いきました。I went to a big shopping mall.",1,
+144,おおぜい,,"many (people), a great number of (people) えき􏰄 まえ􏰆 􏰉􏰋が おおぜい います。There are a lot of people in front of the station.",,
+145,おかあさん,お母さん,"(someone's) mother かれ􏰄 お母さん􏰃 􏰆ほんじん􏰂す。His mom is Japanese.",1,
+146,おかし,,"confectionery, cake, candy, sweets 􏰆ほん􏰄 おかしが すき􏰂す。I like Japanese sweets.",1,
+147,おか􏰌,お金,"money お金􏰃 たいせつ􏰂す。Money is important.",2,
+148,おきます,,"put (Group 1 verb) バッグを テーブル􏰄 した􏰆 おきます。Place the bag under the table.",3,
+149,おきます,,"get up (Group 2 verb) まい􏰆ち 7じ􏰆 おきます。It wakes up at 7 o'clock every day.",,
+150,おくさん,,"(someone's) wife かれ􏰄 おくさん􏰃 􏰋􏰀も きれい􏰂す。His wife is very pretty.",,
+151,おく􏰆,お国,"country = く􏰆。 お国􏰃 􏰈ちら􏰂すか。Where is your country?",1,
+152,おくります,,"send メール􏰂 データを おくります。We will send you the data by email.",,
+153,おさけ,,"liquor, (alcoholic) drink, sake 􏰋き􏰈き おさけを 􏰄みます。I drink alcohol sometimes.",,
+154,おさら,,"plate = さら。 おおきい おさらを 5まい かいました。I bought 5 large plates.",1,
+155,おじさん,,"uncle おじさん􏰃 いつ 􏰆ほん􏰆 きますか。When will your uncle come to Japan?",,
+156,おじいさん,,"grandfather かれ􏰄 おじいさん􏰃 いま カナダ􏰆 います。His grandfather is now in Canada.",,
+157,おしえます,,"teach, tell 􏰋もだち􏰆 えいごを おしえます。I will teach English to my friends.",,
+158,おそい,,"late [i-adj.] きょう􏰃 おそい􏰂す􏰌。You are late today, aren't you?",1,
+159,おそく,,"late [noun] き􏰄う􏰃 おそくま􏰂 しご􏰋を しました。I worked late yesterday.",1,
+160,おちゃ,,"tea おちゃを 􏰄みませんか。Would you like to have a cup of tea?",1,
+161,お􏰀あらい,,"lavatory, toilet お􏰀あらい􏰃 􏰈こ􏰂すか。Where is the restroom?",,
+162,お􏰋うさん,お父さん,"(someone's) father お父さん􏰃 􏰑んさい􏰂すか。How old is your father?",1,
+163,お􏰋う􏰋,,"(my) younger brother お􏰋う􏰋􏰃 がくせい􏰂す。My younger brother is a student.",2,
+164,お􏰋う􏰋さん,,"(someone's) younger brother お􏰋う􏰋さん􏰃 􏰑んさい􏰂すか。What is your younger brother?",,
+165,お􏰋こ,男,"male 男􏰄􏰉􏰋が 5􏰆ん います。 There are 5 men.",7,
+166,お􏰋こ􏰄こ,男􏰄子,"boy 男􏰄子が 3􏰆ん います。There are 3 boys.",,
+167,お􏰋􏰋い,,"the day before yesterday お􏰋􏰋い 􏰋もだち􏰆 あいました。I met my friend the day before yesterday.",2,
+168,お􏰋􏰋し,,"the year before last お􏰋􏰋し 􏰆ほん􏰆 きました。I came here two years ago.",1,
+169,お􏰋􏰑,大人,"adult 大人􏰃 1,000えん、こ􏰈も􏰃 500えん􏰂す。Adults are 1,000 yen and children are 500 yen.",,
+170,お􏰑か,,"stomach お􏰑かが すきました。I'm hungry.",,
+171,お􏰑じ,,"same お􏰑じ いみ􏰄 􏰒ん􏰃 􏰈れ􏰂すか。Which sentences have the same meaning?",3,
+172,お􏰆いさん,,"(someone's) older brother お􏰆いさん􏰃 􏰆ほん􏰆 いますか。Is your brother in Japan?",,
+173,お􏰆ぎり,,"rice ball コンビニ􏰂 お􏰆ぎりを 􏰇たつ かいました。I bought two rice balls at a convenience store.",1,
+174,お􏰌えさん,,"(someone's) older sister お􏰌えさん􏰃 􏰑􏰆を し􏰀いますか。What is your sister doing?",,
+175,お􏰍さん,,"aunt お􏰍さん􏰃 いつ 􏰆ほん􏰆 きますか。When will your aunt come to Japan?",,
+176,お􏰍あさん,,"grandmother お􏰍あさん􏰃 􏰑んさい􏰂すか。How old is your grandmother?",,
+177,お􏰊ん􏰋う,,"lunch box お􏰊ん􏰋うを つくります。I will make a lunch box.",,
+178,おぼえます,,"memorize アプリ􏰂 あたらしい こ􏰋􏰍を おぼえます。Learn new words in the app.",,
+179,おみせ,お店,"shop = みせ。 えき􏰄 􏰑か􏰄 お店􏰂 かいました。I bought it at a shop inside the station.",2,
+180,おもい,,"heavy [i-adj.] こ􏰄ノートパソコン􏰃おもい􏰂す。This laptop is heavy.",2,
+181,おもしろい,,"fun, funny, interesting [i-adj.] おもしろいえいがをみました。I watched an interesting movie.",1,
+182,およぎます,,"swim まいしゅうまつ 500メートル およぎます。I swim 500 meters every weekend.",2,
+183,おります,,"get off つぎ􏰄 えき􏰂 􏰂んしゃを おります。Get off the train at the next station.",2,
+184,おわります,,"end, finish かいぎ􏰃 3じ􏰆 おわります。The meeting ends at 3 o'clock.",3,
+185,おんがく,,"music おんがくが だいすき􏰂す。I love music.",,
+186,おん􏰑,女,"female わたし􏰄オフィス􏰆􏰃 女􏰄􏰉􏰋が 6􏰆ん います。There are 6 women in my office.",12,
+187,おん􏰑􏰄こ,女􏰄子,"girl 女􏰄子が 3􏰆ん います。There are 3 girls.",,
+188,か,火,Tuesday = かよう􏰏。 3がつ15􏰆ち(火) March 15th (Tuesday),2,
+189,がいこく,外国,"foreign country 外国􏰆 いきたい􏰂す。I want to go abroad.",1,
+190,がいこくじん,外国人,"foreigner うち􏰄 かいしゃ􏰆􏰃 外国人が おおぜい います。There are many foreigners in my company.",,
+191,かいしゃ,会社,"company うちから 会社ま􏰂 40􏰁んぐらい􏰂す。It's about 40 from our house to the company.",1,
+192,かいだん,,"stairs かいだん􏰂 いきましょう。Let's go up the stairs.",,
+193,かい􏰋うようし,,"answer sheet これ􏰃 テスト􏰄 かい􏰋うようし􏰂す。This is the test answer sheet.",6,
+194,かいます,買います,"buy おいしい パンを 買いました。I bought some delicious bread.",13,
+195,かいも􏰄,買いも􏰄,"shopping くるま􏰂 買いも􏰄􏰆 いきます。I'm going shopping by car.",4,
+196,かえします,,"return (object) 􏰋しょかん􏰆 ほんを かえします。Return the book to the library.",3,
+197,かえります,,"return, go back タクシー􏰂 うち􏰆 かえります。I'll take a taxi home.",3,
+198,かお,,"face あ􏰄􏰉􏰋􏰄 かおを おぼえ􏰀いますか。Do you remember that person's face?",,
+199,かかります,,"take (time, money) えきま􏰂 あるい􏰀 10􏰁ん かかります。It takes 10 minutes on foot to the station.",,
+200,かぎ,,"key うち􏰆 くるま􏰄 かぎを わすれました。I forgot my car key at home.",,
+201,かきます,書きます,"write えきま􏰂􏰄 ちずを 書きましょうか。Shall I write a map to the station?",5,
+202,がくせい,学生,"student いもう􏰋􏰃 まだ 学生􏰂す。My sister is still a student.",9,
+203,かけます,,"wear めが􏰌を かけます。I wear glasses.",,
+204,かけます,,"call あ􏰋􏰂 かいしゃ􏰆 􏰂んわを かけます。I'll call the company later.",,
+205,かさ,,"umbrella かさが ありますか。Do you have an umbrella?",4,
+206,かします,,"lend ペンを かし􏰀ください。Please lend a pen.",1,
+207,かぜ,,"wind きょう􏰃 􏰋􏰀も かぜが つよい􏰂す。It's very windy today.",1,
+208,かぜ,,"cold かぜを 􏰉きました。I caught a cold.",,
+209,かぞく,,"family わたし􏰄 かぞくも 􏰋うきょう􏰆 すん􏰂います。My family also lives in Tokyo.",1,
+210,かた,,"person (respect) かいしゃ􏰄 かた􏰋 􏰃􏰑しました。I talked to a person from the company.",,
+211,カタカナ,,"katakana カタカナ􏰃 むずかしく􏰑い􏰂す。Katakana is not difficult.",,
+212,がっこう,学校,"school あるい􏰀 学校􏰆 いきます。I will walk to school.",4,
+213,か􏰈,,"corner つぎ􏰄 か􏰈を みぎ􏰆 まがります。Turn right at the next corner.",1,
+214,か􏰑い,,"(my) wife か􏰑い􏰃 いま うち􏰆 います。My wife is at home now.",,
+215,か􏰍ん,,"bag か􏰍ん􏰄 􏰑か􏰆 PCが あります。There is a PC in the bag.",2,
+216,か􏰏ん,,"vase テーブル􏰄 うえ􏰆 か􏰏んが あります。There is a vase on the table.",,
+217,か􏰒ります,,"put on ぼうしを か􏰒ります。Put on a hat.",,
+218,かみ,紙,"paper 紙を 1まい ください。Please give me a piece of paper.",1,
+219,カメラ,,"camera あたらしい カメラを かいたい􏰂す。I want to buy a new camera.",2,
+220,かよう􏰏,火よう日,"Tuesday きょう􏰃 火よう日􏰂す。 Today is Tuesday.",,
+221,からい,,"hot, spicy [i-adj.] からい た􏰊も􏰄􏰃 だいじょう􏰒􏰂すか。Is spicy food okay?",,
+222,からだ,,"body スポーツ􏰃 からだ􏰆 いい􏰂す。Sports are good for you.",,
+223,かります,,"borrow 􏰋もだち􏰆 かさを かりました。I borrowed an umbrella from my friend.",4,
+224,かるい,,"light, not heavy [i-adj.] こ􏰄バッグ􏰃 かるい􏰂す。This bag is light.",1,
+225,カレンダー,,"calendar これ􏰃 きょ􏰌ん􏰄 カレンダー􏰂す。This is last year's calendar.",,
+226,かわ,川,"river おおきい川が あります。There is a big river.",2,
+227,かわいい,,"pretty, sweet, cute [i-adj.] こ􏰈も􏰃 かわいい􏰂す。Children are cute.",,
+228,かんがえます,,"consider, think いいアイデアを かんがえました。I came up with a good idea.",1,
+229,かんじ,,"kanji かんじ􏰄 􏰊んきょうを し􏰀います。I'm studying kanji.",,
+230,かんたん,,"easy [na-adj.] こ􏰄もんだい􏰃 かんたん􏰂す。This question is easy.",2,
+231,き,木,"tree 􏰆わ􏰆 おおきい 木が あります。There is a big tree in the garden.",,
+232,きいろい,,"yellow [i-adj.] きいろい マーカー􏰂 チェックします。Check with the yellow marker.",,
+233,きえます,,"go out, go off 􏰂んきが きえました。The electricity has gone out.",,
+234,ききます,聞きます,"ask, hear, listen イヤホン􏰂 おんがくを 聞きます。Listen to music with earphones.",6,
+235,きた,北,"north 北􏰃 􏰈ちら􏰂すか。Which direction is north?",,
+236,ギター,,"guitar ギター􏰄 れんしゅうを し􏰀います。I'm practicing the guitar.",2,
+237,きた􏰑い,,"dirty [i-adj.] こ􏰄ビル􏰄 トイレ􏰃 きた􏰑い􏰂す。The toilet in this building is dirty.",1,
+238,きっさ􏰀ん,,"coffee shop えき􏰄まえ􏰆 􏰇るい きっさ􏰀んが あります。There is an old coffee shop in front of the station.",2,
+239,きっ􏰀,,"stamp ゆう􏰏んきょく􏰂 きっ􏰀を かいました。I bought a stamp at the post office.",1,
+240,きっ􏰁,,"ticket これ􏰃 しんかんせん􏰄 きっ􏰁􏰂す。This is a Shinkansen ticket.",1,
+241,き􏰄う,,"yesterday き􏰄う たくさん 􏰆ほんご􏰄 􏰊んきょうをしました。I studied a lot of Japanese yesterday.",6,
+242,きます,来ます,"come らいしゅう りょうしんが 􏰋うきょう􏰆 来ます。Next week, my parents will come to Tokyo.",4,
+243,きます,,"put on, wear さむい􏰂すから、セーターをきます。It's cold, so I'll wear a sweater.",,
+244,きゅう,九,"nine ほんを 九さつ かりました。I borrowed nine books.",,
+245,ぎゅう􏰆く,,"beef 􏰆ほん􏰂 ぎゅう􏰆く􏰃 たかい􏰂す。Beef is expensive in Japan.",,
+246,ぎゅう􏰆ゅう,,"milk まいあさ ぎゅう􏰆ゅうを 􏰄みます。I drink milk every morning.",1,
+247,きょう,今日,"today 今日􏰃 いい 􏰀んき􏰂す􏰌。It's nice weather today, isn't it?",13,
+248,きょうしつ,,"classroom せんせい􏰃 きょうしつ􏰆 います。The teacher is in the classroom.",3,
+249,きょうだい,,"brothers and sisters; siblings きょうだいが いますか。Do you have any siblings?",2,
+250,きょう􏰋,,"Kyoto [name of city] お􏰋􏰋し きょう􏰋􏰆 いきました。I went to Kyoto two years ago.",1,
+251,きょ􏰌ん,,"last year きょ􏰌ん 􏰆ほんご􏰄 􏰊んきょうを 􏰃じめました。Last year, I started studying Japanese.",2,
+252,きらい,,"hateful, unpleasant, not likable [na-adj.] 􏰑っ􏰋うが きらい􏰂す。I hate natto.",,
+253,きります,,"cut やさいを きります。 Cut the vegetables.",1,
+254,きれい,,"beautiful, clean [na-adj.] こ􏰄􏰅や􏰃 きれい􏰂す。This room is clean.",1,
+255,きん,金,Friday = きんよう􏰏。 2がつ26􏰆ち(金) February 26th (Friday),2,
+256,ぎんこう,銀行,"bank あ􏰋􏰂 銀行􏰆 いきます。I will go to the bank later.",,
+257,きんよう􏰏,金よう日,"Friday 金よう日􏰆 あいましょう。Let's meet on Friday.",,
+258,く,九,"nine いま 九じ􏰂す。It's nine o'clock now.",,
+259,くすり,,"medicine しょくじ􏰄 あ􏰋􏰂 くすりを 􏰄みます。Take medicine after meals.",1,
+260,くだも􏰄,,"fruit よく くだも􏰄を た􏰊ます。I often eat fruits.",3,
+261,くち,口,"mouth かれ􏰃 口が おおきい􏰂す。He has a big mouth.",,
+262,くつ,,"shoes くつ􏰄 サイズ􏰃 いくつ􏰂すか。What is the size of your shoes?",,
+263,くつした,くつ下,"socks しろい くつ下を かいました。I bought white socks.",1,
+264,く􏰆,国,"country あした 国􏰆 かえります。Tomorrow, I will return to my country.",4,
+265,くもり,,"cloudy weather きょう􏰃 くもり􏰂す。It's cloudy today.",1,
+266,くらい,,"dark [i-adj.] こ􏰄􏰅や􏰃 くらい􏰂す。This room is dark.",1,
+267,クラス,,"class しゅうまつ􏰃 ヨガ􏰄 クラス􏰆 いきます。I go to yoga classes on weekends.",4,
+268,くるま,車,"car きょう􏰃 車が おおい􏰂す􏰌。There are many cars today.",1,
+269,くろ,,"black [noun] くろ􏰂 かきます。Write in black.",1,
+270,くろい,,"black [i-adj.] くろい バッグが 3つ あります。There are three black bags.",1,
+271,くろく,,"black [adv.] くろく 􏰑りました。 It turned black.",1,
+272,ケーキ,,"cake こ􏰄ケーキを 4つ ください。Please give me four of these cakes.",1,
+273,けさ,今朝,"this morning 今朝􏰃 6じ􏰆 おきました。I got up at 6 o'clock this morning.",2,
+274,けしゴム,,"eraser けしゴムを かし􏰀ください。Please lend me an eraser.",1,
+275,けします,,"switch off, turn off, erase 􏰂んきを けします。Turn off the light.",1,
+276,げつ,月,Monday = げつよう􏰏。 4がつ22􏰆ち(月) April 22nd (Monday),2,
+277,けっこんします,,"get married 2がつ15􏰆ち􏰆 けっこんしました。I got married on February 15th.",1,
+278,げつよう􏰏,月よう日,"Monday 月よう日􏰃 いつも いそがしい􏰂す。I'm always busy on Mondays.",,
+279,げんかん,,"front door, front entrance げんかん􏰂 くつを 􏰓ぎます。Take off your shoes at the entrance.",,
+280,げんき,,fine [na-adj.] おげんき􏰂すか。How are you?,1,
+281,ご,五,"five 􏰇じさん􏰆 五かい 􏰄ぼりました。I climbed Mt. Fuji five times.",,
+282,こうえん,,"park うち􏰄 ちかく􏰆 こうえんが あります。There is a park near my house.",2,
+283,こう􏰍ん,,"police box えき􏰄 まえ􏰆 こう􏰍んが あります。There is a police box in front of the station.",,
+284,こえ,,"voice いい こえ􏰂す􏰌。You have a good voice.",,
+285,コート,,"coat さむいから、コートをきます。It's cold, so I'll wear a coat.",,
+286,コーヒー,,"coffee コーヒーを 2􏰃い 􏰄みました。I drank two cups of coffee.",1,
+287,ここ,,"here ここ􏰃 あつい􏰂す。It's hot here.",3,
+288,ごご,午後,"afternoon, p.m. あした􏰄 午後􏰃 うち􏰆 います。I'll be at home tomorrow afternoon.",,
+289,ここ􏰄か,九日,"ninth day of the month, nine days きょう􏰃 九日􏰂す。Today is the 9th.",,
+290,ここ􏰄つ,九つ,"nine 􏰇くろ􏰄 􏰑か􏰆 りんごが 九つ あります。There are nine apples in the bag.",,
+291,ごしゅじん,,"(someone's) husband ごしゅじん􏰃 いま 􏰈こ􏰆 いますか。Where is your husband now?",,
+292,ごぜん,午前,"a.m. いま 午前 11じ􏰂す。It's 11am now.",,
+293,こたえ,,"answer ここ􏰆 こたえを かい􏰀ください。Please write your answer here.",3,
+294,こたえかた,,"how to answer こたえかたが わかりません。I don't know how to answer.",1,
+295,こたえます,,"answer もんだい􏰆 こたえ􏰀ください。Please answer the question.",3,
+296,こちら,,"this side, this place, this one こちら􏰃 􏰈􏰑た􏰂すか。Who is this?",1,
+297,コップ,,"glass, drinking cup テーブル􏰄 うえ􏰆 コップが たくさん あります。There are many cups on the table.",,
+298,こ􏰋し,今年,"this year 今年􏰃 く􏰆􏰆 かえりません。I will not return to the country this year.",,
+299,こ􏰋􏰍,,"word, language, phrase たくさん こ􏰋􏰍を おぼえました。I learned a lot of words.",2,
+300,こ􏰈も,子􏰈も,"child わたし􏰃 子􏰈もが 3􏰆ん います。I have 3 children.",3,
+301,こ􏰄~,,"this ... こ􏰄カメラ􏰃 􏰋􏰀も かるい􏰂す。This camera is very light.",12,
+302,ご􏰃ん,,"rice, meal あさ 8じ􏰆 ご􏰃んを た􏰊ました。I ate at 8 am.",3,
+303,コピー,,"copy コピーをもらっ􏰀もいい􏰂すか。May I get a copy?",2,
+304,コピーします,,"make a copy 5ページから10ページま􏰂 コピーし􏰀ください。Please copy pages 5 to 10.",1,
+305,こまります,,"be in trouble スマホを わすれましたから、こまりました。I was in trouble because I forgot my smartphone.",2,
+306,これ,,"this (one) これを 2つ􏰋、それを 3つ ください。Please give me two of these and three of them.",2,
+307,こんげつ,今月,"this month 今月􏰃 􏰋􏰀も いそがしい􏰂す。This month is very busy.",1,
+308,こんしゅう,今週,"this week 今週􏰃 あまり いそがしく􏰑い􏰂す。I'm not very busy this week.",,
+309,こん􏰑,,"this sort of, like this [na-adj.] こん􏰑 りょうりが すき􏰂す。I like this kind of food.",,
+310,こん􏰍ん,,"tonight こん􏰍ん 9じ􏰆 うち􏰆 かえります。 I'll be back home tonight at 9 o'clock.",,
+311,さいご,,"end, last time レッスン􏰄 さいご􏰆 しゅくだいを あげます。I will give you homework at the end of the lesson.",,
+312,さか􏰑,魚,"fish 􏰆くより 魚􏰄りょうりが すき􏰂す。I like fish dishes better than meat.",1,
+313,さき,先,"former, earlier お先􏰆 􏰈うぞ。After you.",2,
+314,さきます,,"bloom 􏰃る􏰆􏰃 いろいろ􏰑􏰃􏰑が さきます。Various flowers bloom in spring.",,
+315,さく􏰒ん,,"composition さく􏰒ん􏰃 いい れんしゅう􏰂す。Writing is a good practice.",,
+316,さします,,"put up (umbrella) あめ􏰂したが、かさをさしません􏰂した。It was raining, but I didn't hold my umbrella.",,
+317,サッカー,,"soccer, football あした􏰃 サッカー􏰄 しあいが あります。Tomorrow there is a soccer game.",,
+318,ざっし,,"magazine こ􏰄ざっし􏰄 しゃしん􏰃 きれい􏰂す。The photos in this magazine are beautiful.",1,
+319,さ􏰋う,,"sugar コーヒー􏰆 さ􏰋うを いれますか。Would you like to add sugar to your coffee?",,
+320,さむい,,"cold (weather) [i-adj.] きょう􏰃 き􏰄うより さむい􏰂す。It's colder today than yesterday.",1,
+321,さらい􏰌ん,,"the year after next た􏰒ん さらい􏰌ん 􏰆ほ􏰆 いきます。Maybe I will go to Japan the year after next.",,
+322,さん,三,"three 􏰂んちを さんこ いれます。Insert three batteries.",,
+323,さんぽ,,"walk ちち􏰋 􏰃􏰃􏰃 さんぽが すき􏰂す。My father and mother like walking.",,
+324,さんぽ(を)します,,"take a walk けさ 􏰃􏰃􏰋 さんぽをしました。I took a walk with my mother this morning.",1,
+325,し,四,"four = よん。 いち、􏰆、さん、四、ご... one, two, three, four, five ...",,
+326,しお,,"salt しおを すこし いれ􏰀ください。Please add a little salt.",,
+327,しかし,,"but, however (formal, written language) 􏰊んきょうしました。しかし、わすれました。I studied. But I forgot.",,
+328,じかん,時間,"time あした􏰃 時間が あります。I have time tomorrow.",2,
+329,しご􏰋,,"work 􏰈ん􏰑 しご􏰋を し􏰀いますか。What kind of work do you do?",3,
+330,じしょ,,"dictionary じしょ􏰂 しら􏰊ました。I looked it up in the dictionary.",1,
+331,しずか,,"quiet [na-adj.] こ􏰄カフェ􏰃 しずか􏰂す。This cafe is quiet.",,
+332,した,下,"under, below テーブル􏰄 下􏰆 コンセントが あります。There is an outlet under the table.",2,
+333,しつもん,,"question しつもんが あります。I have a question.",6,
+334,じ􏰀んしゃ,,"bicycle じ􏰀んしゃ􏰂 がっこう􏰆 いきます。I go to school by bicycle.",,
+335,じ􏰈うしゃ,,"car じ􏰈うしゃが 5だい あります。There are 5 cars.",,
+336,し􏰆ます,,"die ペットが し􏰆ました。The pet has died.",,
+337,じ􏰏き,,"dictionary = じしょ じしょ􏰋 じ􏰏き􏰃 お􏰑じ􏰂す。""Jisho"" and ""Jibiki"" are the same.",,
+338,じ􏰒ん,,"oneself じ􏰒ん􏰂 つくりました。I made it myself.",,
+339,します,,"do あした􏰃 􏰑􏰆を しますか。What are you going to do tomorrow?",14,
+340,しまります,,"close (intransitive verb) ドアが しまります。The door closes.",,
+341,しめます,,"close (transitive verb) わたし􏰃 ドアを しめます。I close the door.",1,
+342,しゃしん,,"photograph, photo, picture いっしょ􏰆 しゃしんを 􏰋りましょう。Let's take a picture together.",1,
+343,シャツ,,"shirt しろい シャツを かいました。I bought a white shirt.",,
+344,シャワー,,"shower まいあさ シャワーを あ􏰏ます。I take a shower every morning.",1,
+345,しゅう,週,"week こ􏰄週􏰋こ􏰄週􏰃 􏰋うきょう􏰆 います。This week and this week I'm in Tokyo.",1,
+346,じゅう,十,"ten お􏰋こ􏰄 􏰉􏰋が 十􏰆ん います。There are ten men.",,
+347,ジュース,,"juice オレンジジュースをください。Please give me orange juice.",1,
+348,じゅぎょう,,"class, lesson きょう􏰃 􏰆ほんご􏰄 じゅぎょうが あります。I have a Japanese class today.",,
+349,しゅくだい,,"homework しゅくだいが たくさん あります。I have a lot of homework.",3,
+350,じょうず,上手,"good, skillful [na-adj.] か􏰄じょ􏰃 􏰆ほんごが じょうず􏰂す。She is good at Japanese.",1,
+351,じょうず􏰆,上手􏰆,"well [adv.] 􏰋􏰀も 上手􏰆 􏰂きました􏰌。You did it very well.",1,
+352,じょう􏰒,,"healthy, strong, firm, durable [na-adj.] こ􏰄スーツケース􏰃じょう􏰒􏰂す。This suitcase is durable.",,
+353,しょうゆ,,"soy sauce しょうゆを すこし いれます。Add a little soy sauce.",1,
+354,しょく􏰈う,,"dining room 10かい􏰆 しょく􏰈うが あります。There is a dining room on the 10th floor.",1,
+355,しります,知ります,"know 「􏰃い、知っ􏰀います」「いいえ、知りません」""Yes, I know"" ""No, I don't know""",,
+356,しろい,白い,"white [i-adj.] 白い 􏰃􏰑を かいました。I bought a white flower.",,
+357,しん􏰒ん,新聞,"newspaper うち􏰂 新聞を よみます。I read the newspaper at home.",1,
+358,すい,水,"Wednesday = すいよう􏰏。 げつ􏰋水􏰃 やすみ􏰂す。 Monday and Wednesday are closed.",2,
+359,すいます,,"breath in, smoke た􏰍こを すいますか。Do you smoke?",,
+360,すいよう􏰏,水よう日,"Wednesday 水よう日􏰃 うち􏰂 しご􏰋を します。I work at home on Wednesday.",,
+361,スカート,,"skirt 􏰋き􏰈き スカートを 􏰃きます。I wear a skirt sometimes.",,
+362,すき,,"like [na-adj.] わたし􏰃 􏰊んきょうが すき􏰂す。I like studying.",4,
+363,すく􏰑い,少􏰑い,"few きょう􏰃 しゅくだいが すく􏰑い􏰂す。I have less homework today.",1,
+364,すぐ􏰆,,"soon, right away すぐ􏰆 おわります。It will end soon.",1,
+365,すこし,少し,"a little 少し じかんを ください。Please give me some time.",1,
+366,すし,,"sushi き􏰄う すしを た􏰊ました。I ate sushi yesterday.",1,
+367,すしや,,"sushi restaurant き􏰄う􏰃 すしや􏰆 いきました。Yesterday I went to a sushi restaurant.",1,
+368,すずしい,,"cool (weather) [i-adj.] きょう􏰃 き􏰄うより すずしい􏰂す。Today is cooler than yesterday.",,
+369,ストーブ,,"stove, heater これ􏰃 􏰇るい ストーブ􏰂す。This is an old stove.",,
+370,スプーン,,"spoon スプーン􏰂 カレーを た􏰊ます。Eat curry with a spoon.",,
+371,スポーツ,,"sports 􏰑􏰆か スポーツを し􏰀いますか。Do you play any sports?",,
+372,ズボン,,"trousers, pants ズボンを 􏰃きます。I wear pants.",,
+373,すみます,住みます,"live, inhabit めぐろ􏰆 住ん􏰂います。I live in Meguro.",1,
+374,スリッパ,,"slippers ここ􏰂 スリッパを 􏰃きます。I will put on my slippers here.",,
+375,すわります,,"sit down 􏰈うぞ ここ􏰆 すわっ􏰀 ください。Please have a seat here.",,
+376,せ,,"height あ􏰄􏰉􏰋􏰃 􏰋􏰀も せが たかい􏰂す。That person is very tall.",,
+377,せい􏰋,,"student わたし􏰃 MLC􏰄 せい􏰋􏰂す。I am a MLC student.",,
+378,セーター,,"sweater こ􏰄セーター􏰃 􏰋􏰀も あたたかい􏰂す。This sweater is very warm.",,
+379,せっけん,,"soap せっけん􏰂 よく 􏰀を あらいましょう。Wash your hands thoroughly with soap.",,
+380,せ􏰏ろ,,"jacket, suit あ􏰄􏰉􏰋􏰃 いつも せ􏰏ろを き􏰀います。That person is always in a suit.",,
+381,せまい,,"narrow, not spacious [i-adj.] わたし􏰄 􏰅や􏰃 せまい􏰂す。My room is small.",1,
+382,ゼロ,,"zero これ􏰃 カロリーゼロ􏰂す。This is zero calories.",,
+383,せん,千,"thousand これ􏰃 千えん􏰂す。This is a thousand yen.",2,
+384,せんげつ,先月,"last month 先月 ハワイ􏰆 いきました。I went to Hawaii last month.",,
+385,せんしゅう,先週,"last week 先週􏰄 きんよう􏰏􏰆 􏰏ょういん􏰆 いきました。I went to the hospital last Friday.",1,
+386,せんせい,先生,"teacher こちら􏰃 わたし􏰄 先生􏰂す。This is my teacher.",3,
+387,せんたく,,"washing, laundry まい􏰆ち せんたくを します。I will do the laundry every day.",,
+388,ぜん􏰒,,"all しゅくだい􏰃 ぜん􏰒 おわりました。I've done all my homework.",2,
+389,そうじ,,"cleaning わたし􏰃 そうじが すき􏰂す。I like cleaning.",1,
+390,そうじします,,"clean これから こ􏰄􏰅やを そうじします。I'm going to clean this room.",,
+391,そこ,,"there かぎ􏰃 そこ􏰆 あります。 The key is there.",,
+392,そし􏰀,,"and, then 􏰋もだち􏰆 あいました。そし􏰀、すしや􏰆いきました。I met my friend. Then I went to a sushi restaurant.",1,
+393,そちら,,"there, your place あした そちら􏰆 いきます。I will go there tomorrow.",,
+394,そ􏰋,外,"outside 外􏰃 すごい あめ􏰂す。It's raining a lot outside.",2,
+395,そ􏰄~,,"that ... そ􏰄􏰉􏰋􏰃 􏰋􏰀も しんせつ􏰂した。The person was very kind.",4,
+396,そ􏰍,,"nearby オフィス􏰄 そ􏰍􏰄 みせ􏰂 かいました。I bought it at a store near my office.",2,
+397,そら,空,"sky きょう􏰃 空が 􏰋􏰀も きれい􏰂す􏰌。The sky is very beautiful today.",,
+398,それ,,"that (one) それ􏰃 􏰑ん􏰂すか。 What is it?",1,
+399,それから,,"and then, after that これをください。それから、これもください。 This one, please. Also, this one, please.",4,
+400,それ􏰂􏰃,,"then, well それ􏰂􏰃 つぎ􏰄 ページ􏰆 いきましょう。Now let's go to the next page.",,
+401,だいがく,大学,"university 大学􏰂 􏰆ほんごを 􏰊んきょうしました。I studied Japanese at university.",1,
+402,たいしかん,,"embassy これから たいしかん􏰆 いきます。I will go to the embassy from now on.",1,
+403,だいじょう􏰒,,"okay, no problem [na-adj.] だいじょう􏰒􏰂すか。Are you okay?",,
+404,だいすき,,"be very fond of, like very much [na-adj.] チーズケーキがだいすき􏰂す。I love cheesecake.",,
+405,たいせつ,,"important [na-adj.] これ􏰃 􏰋􏰀も たいせつ􏰂す。This is very important.",,
+406,だいたい,,"almost だいたい お􏰑じ いみ􏰂す。It has almost the same meaning.",1,
+407,たい􏰀い,,"mostly, usually あさご􏰃ん􏰃 たい􏰀い パン􏰋 コーヒー􏰂す。Breakfast is usually bread and coffee.",,
+408,だい􏰈ころ,,"kitchen か􏰑い􏰋 むすめ􏰃 だい􏰈ころ􏰆 います。My wife and daughter are in the kitchen.",,
+409,たい􏰅ん,,"very [adv.] (formal) き􏰄う􏰃 たい􏰅ん いそがしかった􏰂す。It was very busy yesterday.",,
+410,たい􏰅ん,,"serious, hard, difficult [na-adj.] かんじ􏰄 􏰊んきょう􏰃 たい􏰅ん􏰂す。Studying kanji is hard.",,
+411,たかい,高い,"expensive [i-adj.] こ􏰄カメラ􏰃 高い􏰂す。This camera is expensive.",1,
+412,たかい,高い,"tall, high [i-adj.] あ􏰄ビル􏰃 􏰋􏰀も 高い􏰂す。That building is very tall.",,
+413,だから,,"so, therefore あした􏰃 あめ􏰂す。だから、うち􏰆います。It will rain tomorrow. So I will stay home.",1,
+414,たくさん,,"many, much きょう􏰃 たくさん しゅくだいが あります。I have a lot of homework today.",4,
+415,タクシー,,"taxi タクシー􏰂 行きましょう。Let's go by taxi.",2,
+416,だします,出します,"take out バッグ􏰄 􏰑かから スマホを 出します。Take your smartphone out of the bag.",1,
+417,ただしい,,"correct [i-adj.] ただしい􏰒ん􏰃 􏰈れ􏰂すか。Which is the correct sentence?",1,
+418,たちます,立ちます,"stand up ここ􏰆 立っ􏰀ください。Please stand here.",1,
+419,た􏰀も􏰄,,"building たかい た􏰀も􏰄が たくさん あります。There are many tall buildings.",1,
+420,た􏰄しい,,"enjoyable, pleasant [i-adj.] き􏰄う􏰄 パーティー􏰃 􏰋􏰀も た􏰄しかった􏰂す。Yesterday's party was a lot of fun.",1,
+421,た􏰄みます,,"ask, request た􏰑かさん􏰆 こ􏰄しご􏰋を た􏰄みます。I will ask Mr. Tanaka for this job.",,
+422,た􏰍こ,,"cigarette, tobacco わたし􏰃 た􏰍こを すいません。I don't smoke.",,
+423,た􏰒ん,,"probably, perhaps た􏰒ん あした􏰃 じかんが あります。Maybe I have time tomorrow.",,
+424,た􏰊も􏰄,食􏰊も􏰄,"food コンビニ􏰂 食􏰊も􏰄􏰋 􏰄みも􏰄を かいました。I bought food and drinks at a convenience store.",,
+425,た􏰊ます,食􏰊ます,"eat よく おすしを 食􏰊ます。I often eat sushi.",8,
+426,たまご,,"egg たまごを 10こ かいました。I bought 10 eggs.",1,
+427,だれ,,"who あ􏰄􏰉􏰋􏰃 だれ􏰂すか。Who is that person.",2,
+428,たんじょう􏰏,,"birthday たんじょう􏰏􏰃 いつ􏰂すか。When is your birthday.",1,
+429,だんだん,,"gradually, little by little だんだん あたたかく􏰑りました。It's getting warmer and warmer.",,
+430,ちいさい,小さい,"small 小さい さか􏰑が います。There is a small fish.",,
+431,ちいさ􏰑+[noun],小さ􏰑,"small 小さ􏰑+[noun] 小さ􏰑 さか􏰑が います。There is a small fish.",2,
+432,ちかい,近い,"near, close [i-adj.] わたし􏰄 うち􏰃 えきから 近い􏰂す。My house is close to the station.",,
+433,ちがいます,,"be different, differ N5􏰋N4􏰃 レベルが ちがいます。N5 and N4 have different levels.",,
+434,ちかく,近く,"neighborhood [noun] 近く􏰄 レストラン􏰂 􏰍んご􏰃んを た􏰊ました。I had dinner at a nearby restaurant",4,
+435,ちか􏰀つ,,"subway ちか􏰀つ􏰃 􏰋􏰀も 􏰊んり􏰂す。The subway is very convenient.",,
+436,ちず,,"map ちずを み􏰀 チェックしましょう。Let's check by looking at the map.",1,
+437,ちち,父,"(my) father 父􏰃 エンジニア􏰂す。My father is an engineer.",1,
+438,ちゃいろ,,"brown わたし􏰄 さい􏰇􏰃 ちゃいろ􏰂す。My wallet is brown.",,
+439,ちゃわん,,"(rice) bowl きれい􏰑 ちゃわん􏰋 お􏰃しを かいました。I bought a beautiful bowl and chopsticks.",,
+440,ちょう􏰈,,"just いま 3じ ちょう􏰈􏰂す。It's just 3 o'clock now.",,
+441,ちょっ􏰋,,"a little すみません。ここ􏰂 ちょっ􏰋 まっ􏰀ください。Excuse me. Please wait a moment here.",4,
+442,ついたち,一日,"the first day of the month たんじょう􏰏􏰃 3がつ ついたち􏰂す。Birthday is March 1st.",,
+443,つかいます,,"use しご􏰋􏰂 まい􏰆ち 􏰆ほんごを つかいます。I use Japanese every day at work.",5,
+444,つかれます,,"get tired きょう􏰃 􏰋􏰀も つかれました。I'm very tired today.",2,
+445,つぎ,,"next つぎ􏰄 か􏰈を みぎ􏰆 まがっ􏰀ください。Turn right at the next corner.",4,
+446,つきます,,"arrive 3じ􏰃ん􏰆 􏰑りたくうこう􏰆 つきます。I will arrive at Narita Airport at 3:30.",4,
+447,つくえ,,"desk つくえ􏰄 うえ􏰆 ほんが たくさん あります。There are many books on the desk.",4,
+448,つくりかた,,"how to make こ􏰄りょうり􏰄 つくりかたを しりたい􏰂す。I want to know how to make this dish.",1,
+449,つくります,,"make あたらしいアプリをつくりました。I made a new app.",2,
+450,つけます,,"turn on こ􏰄リモコン􏰂 エアコンを つけます。Turn on the air conditioner with this remote control.",1,
+451,つ􏰋めます,,"work for ちいさい IT􏰄 かいしゃ􏰆 つ􏰋め􏰀います。I work for a small IT company.",,
+452,つまら􏰑い,,"uninteresting, boring [i-adj.] こ􏰄えいが􏰃 つまら􏰑い􏰂す。This movie is boring.",1,
+453,つめたい,,"cold (object) [i-adj.] つめたい􏰄み􏰄も􏰃いかが􏰂すか。How about a cold drink?",,
+454,つよい,,"strong [i-adj.] きょう􏰃 􏰋􏰀も かぜが つよい􏰂す。It's very windy today.",,
+455,て,手,"hand 手を みせ􏰀ください。Please show me your hand.",1,
+456,ティッシュペーパー,,"tissue ティッシュペーパーを いちまい ください。Please give me a piece of tissue paper.",1,
+457,テープ,,"tape ここ􏰆 テープを 􏰃っ􏰀ください。Please stick the tape here.",,
+458,テープレコーダー,,"tape recorder テープレコーダー􏰃 いま􏰃 ありません。There is no tape recorder now.",,
+459,テーブル,,"table こ􏰄テーブルを つかっ􏰀もいい􏰂すか。Can I use this table?",2,
+460,􏰂かけます,出かけます,"go out き􏰄う􏰃 􏰈こ􏰆も 􏰂かけません􏰂した。I didn't go anywhere yesterday.",1,
+461,􏰀がみ,手紙,"letter よくメール􏰃しますが、手紙􏰃かきません。I often email, but I don't write letters.",1,
+462,􏰂きます,,"can わたし􏰃 ちゅうごくご􏰋 かんこくごも 􏰂きます。I can also speak Chinese and Korean.",,
+463,􏰂ぐち,出口,"exit 出口􏰃 あちら􏰄ドア􏰂す。The exit is that door.",1,
+464,テスト,,"test あした􏰃 かんじ􏰄テストが あります。Tomorrow I have a kanji test.",3,
+465,では,,"then, well then = じゃ。 􏰂􏰃、きょう􏰄 レッスンを おわりましょう。So let's finish today's lesson.",2,
+466,デパート,,"department store デパート􏰆 かいも􏰄􏰆 いきました。I went shopping at a department store.",3,
+467,􏰂ます,出ます,"leave あした􏰃 あさ 7じ􏰆 うちを 出ます。I will leave home at 7 am tomorrow.",1,
+468,􏰂も,,"but 􏰆ちよう􏰏􏰂す。􏰂も、うち􏰂しご􏰋を します。It's Sunday. But I do work at home.",5,
+469,テレビ,,"TV テレビ􏰂 そ􏰄ニュースを みました。I saw the news on TV.",2,
+470,􏰀んき,天気,"weather きょう􏰃 􏰋􏰀も いい天気􏰂す􏰌。It's a very nice weather today.",,
+471,􏰂んき,電気,"electricity 電気を つけ􏰀も いい􏰂すか。Can I turn on the light?",,
+472,􏰂んしゃ,電車,"train 電車􏰃 すこし こん􏰂いました。The train was a little crowded.",1,
+473,􏰂んわ,電話,"telephone き􏰄う 􏰃􏰃から 電話が ありました。I got a call from my mother yesterday.",2,
+474,􏰂んわします,電話します,"call, ring たま􏰆 かぞく􏰆 電話します。I call my family once in a while.",1,
+475,􏰂んわ􏰍んごう,電話􏰍んごう,"telephone number ここ􏰆 電話􏰍んごうを かい􏰀ください。Please write your phone number here.",1,
+476,􏰋と,,"door 􏰋が あい􏰀います。The door is open.",,
+477,ど,,"Saturday = 􏰈よう􏰏。 5がつ16􏰆ち(􏰈)􏰆 􏰆ほん􏰆 いきます。I will go to Japan on Saturday, May 16th.",2,
+478,ドア,,"door みぎがわ􏰄ドアがあきます。The door on the right opens.",,
+479,トイレ,,"toilet, lavatory トイレを かり􏰀も いい􏰂すか。Can I use the toilet?",,
+480,トイレットペーパー,,"toilet paper トイレットペーパーがありません!There is no toilet paper!",2,
+481,􏰈う,,"how き􏰄う􏰄 テスト􏰃 􏰈う􏰂したか。How was your test yesterday?",6,
+482,􏰋うきょう,,"Tokyo 􏰋うきょう􏰃 おもしろい 􏰋ころ􏰂す􏰌。Tokyo is an interesting place, isn't it?",1,
+483,􏰈うし􏰀,,"why 􏰈うし􏰀 き􏰄う やすみましたか。Why did you take a day off yesterday?",1,
+484,􏰋う􏰇,,"tofu 􏰋う􏰇 を た􏰊たこ􏰋が ありますか。Have you ever eaten tofu?",1,
+485,􏰈う􏰒つ,,"animal 􏰈う􏰒つえん􏰆 いろいろ􏰑 􏰈う􏰒つが います。There are various animals in the zoo.",1,
+486,􏰋お,十,"ten 􏰉􏰋つ、􏰇たつ、みっつ、よっつ、いつつ、むっつ、􏰑􏰑つ、やっつ、ここ􏰄つ、十O。ne, two, three, four, five, six, seven,",,
+487,􏰋おい,,"far [i-adj.] えき􏰃 ここから すこし 􏰋おい􏰂す。The station is a little far from here.",,
+488,􏰋おく,,"distantly, far [noun] りょうしん􏰃 􏰋おく􏰆 すん􏰂います。My parents live far away.",1,
+489,􏰋おか,十日,"the tenth day of the month, ten days きょう􏰃 十日􏰂す。Today is the 10th.",,
+490,􏰋き􏰈き,,"sometimes 􏰋き􏰈き じ􏰒ん􏰂 りょうりを つくります。Sometimes I cook myself.",1,
+491,􏰋けい,,"clock, watch 􏰋もだち􏰆 かわいい 􏰋けいを プレゼントしました。I gave my friend a cute clock as a gift.",1,
+492,􏰈こ,,"where お􏰀あらい􏰃 􏰈こ􏰂すか。Where is the restroom?",7,
+493,􏰈こか,,"somewhere 􏰈こか􏰂 ランチを た􏰊ませんか。Would you like to have lunch somewhere?",2,
+494,􏰋ころ,,"place 􏰈ん􏰑 􏰋ころ􏰆 すみたい􏰂すか。What kind of place do you want to live in?",,
+495,􏰋しょかん,,"library わたし􏰃 ほ􏰋ん􏰈 􏰋しょかん􏰆 いきません。I rarely go to the library.",2,
+496,􏰈ちら,,"「􏰈っち which」「􏰈こ where」「􏰈れ which one」􏰄polite コーヒー􏰋こうちゃ、􏰈ちがいい􏰂すか。Which would you like, coffee or tea? 􏰈ちらから􏰂すか。Where are you from? 􏰈ちらが いい􏰂すか。Which one would you like to choose?",3,
+497,􏰋􏰀も,,"very きょう􏰃 􏰋􏰀も た􏰄しかった􏰂す。I had a lot of fun today.",3,
+498,􏰈􏰑た,,"だれ。who 􏰄polite こ􏰄 しゃしん􏰄 􏰉􏰋􏰃 􏰈􏰑た 􏰂すか。Who is the person in this photo?",,
+499,􏰋􏰑り,,"next to 􏰋􏰑り􏰆 すわっ􏰀もいい􏰂すか。Can I sit next to you?",1,
+500,􏰈􏰄~,,"which ... 􏰈􏰄アプリを いち􏰍ん よく つかいますか。Which app do you use the most?",2,
+501,􏰋􏰏ます,,"fly 􏰋りが たくさん 􏰋ん􏰂います。A lot of birds are flying.",,
+502,􏰋まります,,"stop こ􏰄􏰂んしゃ􏰃 し􏰒やえき􏰆 􏰋まりますか。Does this train stop at Shibuya Station?",,
+503,􏰋もだち,友だち,"friend き􏰄う􏰃 友だち􏰋 オンライン􏰂 􏰃􏰑しました。I talked online with my friends yesterday.",5,
+504,􏰈よう􏰏,土よう日,"Saturday こんしゅう􏰄 土よう日􏰃 やすみ􏰂す。This Saturday is closed.",1,
+505,􏰋り,,"bird き􏰄 うえ􏰆 ちいさい􏰋りが たくさん います。There are many small birds on the tree.",,
+506,􏰋り􏰆く,,"chicken 􏰋り􏰆くを よく た􏰊ます。I often eat chicken.",,
+507,􏰋ります,,"take すみません。こしょうを􏰋っ􏰀ください。Excuse me. Could you pass the pepper?",2,
+508,􏰋ります,,"take (photographs) きょう􏰋􏰂 たくさん きれい􏰑 しゃしんを 􏰋りました。I took a lot of beautiful pictures in Kyoto.",,
+509,􏰈れ,,"which one おすすめ􏰃 􏰈れ􏰂すか。Which is your recommendation?",2,
+510,􏰈ん􏰑,,"what kind of ... 􏰈ん􏰑 も􏰄を た􏰊たい􏰂すか。What kind of food do you want to eat?",1,
+511,ナイフ,,"knife フォーク􏰋 ナイフ􏰂 ステーキを た􏰊ます。I eat steak with a fork and knife.",,
+512,􏰑か,中,"inside ポケット􏰄 中􏰆 ティッシュが あります。There is tissue in my pocket.",9,
+513,􏰑がい,長い,"long [i-adj.] こ􏰄えいが􏰃 􏰋􏰀も 長い􏰂す。This movie is very long.",2,
+514,􏰑きます,,"sing, mew, moo, etc. たくさん􏰄 􏰋りが 􏰑い􏰀います。Many birds are singing.",,
+515,􏰑つ,,"summer いち􏰌ん􏰄 􏰑か􏰂 􏰑つが いち􏰍ん すき􏰂す。I like summer the best of the year.",,
+516,など,,"and so on, etc. バッグ􏰄 􏰑か􏰆 スマホや サイフ􏰑􏰈が あります。There are smartphones, wallets and other things in the bag.",1,
+517,􏰑􏰑つ,七つ,"seven こ􏰄ドーナツを 七つ ください。7 of these donuts, please.",1,
+518,なに,何,"what しゅうまつ􏰃 何を しましたか。What did you do on the weekend?",10,
+519,􏰑􏰆か,何か,"something 何か つめたい 􏰄みも􏰄􏰃 いかが􏰂すか。How about some cold drink?",2,
+520,􏰑􏰄か,七日,the seventh day of the month きょう􏰃 七日􏰂す。Today is the 7th.,,
+521,􏰑まえ,名前,"name こちら􏰆 名前􏰋 じゅうしょを かい􏰀ください。Please write your name and address here.",1,
+522,􏰑らいます,,"learn (from somebody) 􏰃􏰃􏰆 りょうりを 􏰑らいました。I learned cooking from my mother.",,
+523,􏰑ら􏰏ます,,"(someone) line up みせ􏰄 そ􏰋􏰂 30􏰁ん 􏰑ら􏰏ました。I lined up outside the store for 30 minutes.",,
+524,􏰑ら􏰊ます,,"line up (something) テーブル􏰄 うえ􏰆 おさらを 5まい 􏰑ら􏰊ます。I line up five dishes on the table.",1,
+525,􏰑ります,,"become こ􏰈も􏰃 らいげつ 5さい􏰆 􏰑ります。My child will be 5 years old next month.",,
+526,􏰑ん,何,"what こ􏰄スイッチ􏰃 何􏰂すか。What is this switch?",14,
+527,􏰑んじ,何時,"what time あした􏰃 何時􏰆􏰈こ􏰂あいましょうか。What time and where will we meet tomorrow?",1,
+528,􏰑ん􏰆ち,何日,"which day of the month きょう􏰃 何日􏰂すか。What day is it today?",1,
+529,􏰆,二,"two 三、二、一 スタート! Three, two, one start!",2,
+530,􏰆ぎやか,,"lively [na-adj.] ここ􏰃 􏰆ぎや􏰑か􏰑 レストラン􏰂す􏰌。This is a lively restaurant, isn't it?",,
+531,􏰆く,,"meat さか􏰑􏰋 􏰆く、􏰈ちらがいい􏰂すか。Which do you prefer, fish or meat?",2,
+532,􏰆し,西,"west 西􏰃 こっち􏰂す。West is this direction.",,
+533,􏰆ち,日,"Sunday = 􏰆ちよう􏰏。 たんじょう􏰏􏰃 5がつ 17􏰆ち􏰂す。My birthday is May 17th.",2,
+534,􏰆ちよう􏰏,日よう日,"Sunday こん􏰈􏰄 日よう日􏰄 お􏰉るごろ􏰆 あいましょうか。Shall we meet next Sunday around noon?",3,
+535,􏰆􏰌ん,二年,"two years わたし􏰃 􏰆ほん􏰆 き􏰀 もう 二年􏰂す。I have been in Japan for two years now.",1,
+536,􏰆ほん,日本,"Japan 1􏰌んまえから 日本􏰂 しご􏰋を し􏰀います。I have been working in Japan for a year.",3,
+537,􏰆ほんご,日本語,"Japanese language 􏰃ん􏰋しまえから 日本語を 􏰊んきょうし􏰀います。I have been studying Japanese for half a year.",1,
+538,􏰆もつ,,"baggage ここ􏰆 􏰆もつを おい􏰀も いい􏰂すか。Can I put my luggage here?",2,
+539,ニュース,,"news よく インターネット􏰂 ニュースを みます。I often watch the news on the internet.",,
+540,􏰆わ,,"garden 􏰆わ􏰆 い􏰓が 2􏰉き います。There are two dogs in the yard.",1,
+541,􏰓ぎます,,"take off いつも ここ􏰂 くつを 􏰓ぎます。I always take off my shoes here.",,
+542,􏰓ります,,"paint テーブルを しろく 􏰓ります。I paint the table white.",1,
+543,ネクタイ,,"necktie わたし􏰃 ネクタイが 30ぽんぐらい あります。I have about 30 ties.",,
+544,􏰌ます,,"go to bed, sleep いつも 12じごろ􏰆 􏰌ます。I always go to bed around 12 o'clock.",,
+545,ノート,,"notebook じ􏰒ん􏰄 ノート􏰆 かい􏰀ください。Write it in your notebook.",1,
+546,􏰄ぼります,,"go up, climb 􏰑つ􏰆 􏰋もだち􏰋 􏰇じさん􏰆 􏰄ぼります。I will climb Mt. Fuji with my friends this summer.",,
+547,􏰄みます,飲みます,"drink まい􏰆ち コーヒーを 3􏰍いぐらい 飲みます。I drink about 3 cups of coffee every day.",2,
+548,􏰄みも􏰄,飲みも􏰄,"drinks 飲みも􏰄􏰃 􏰑􏰆が いい􏰂すか。What do you like for a drink?",1,
+549,􏰄ります,,"get on, ride, take うち􏰄 ちかくから えきま􏰂 バス􏰆 􏰄ります。I take a bus from near my house to the station.",2,
+550,􏰃,,"teeth きょう􏰃 すこし 􏰃が いたい􏰂す。I have a slight toothache today.",,
+551,パーティー,,"party こん􏰍ん 􏰋もだち􏰄うち􏰂 パーティーが あります。I have a party at my friend's house tonight.",1,
+552,􏰃いざら,,"ashtray すみません。􏰃いざらがありますか。Excuse me. Do you have an ashtray?",,
+553,􏰃いります,入ります,"enter いつも こ􏰄いりぐちから 􏰑か􏰆 入ります。I always enter through this entrance.",4,
+554,􏰃がき,,"postcard ゆ􏰏んきょく􏰂 􏰃がきを 10まい かいました。I bought 10 postcards at the post office.",,
+555,􏰃きます,,"put on いつも ここ􏰂 くつを 􏰃きます。I always put on shoes here.",,
+556,􏰃こ,,"box 􏰃こ􏰄 􏰑か􏰆 くるま􏰄 かぎが あります。There is a car key in the box.",3,
+557,􏰃し/お􏰃し,,"chopsticks お􏰃し􏰂 おすしを た􏰊ます。I eat sushi with chopsticks.",1,
+558,􏰃し,,"bridge あ􏰄 おおきい 􏰃しを あるい􏰀 わたります。I walk across a large bridge.",,
+559,􏰃じまります,,"begin, start らいしゅうから􏰆ほんご􏰄レッスンが􏰃じまります。Japanese lessons will start next week.",1,
+560,􏰃じめ􏰆,,"at the beginning 􏰃じめ􏰆 􏰉らが􏰑􏰋 カタカナを 􏰊んきょうしました。First, I studied hiragana and katakana.",3,
+561,􏰃じめ􏰀,,"for the first time きょ􏰌ん 􏰃じめ􏰀 􏰇じさんを みました。I saw Mt. Fuji for the first time last year.",,
+562,バス,,"bus うちから がっこうま􏰂 バス􏰂 20􏰁ん􏰂す。20 minutes by bus from my house to school.",4,
+563,バスがいしゃ,バス会社,"bus agency, bus company いもう􏰋􏰃 バス会社􏰆 つ􏰋め􏰀います。My sister works for a bus company.",1,
+564,バス􏰀い,,"bus stop こ􏰄ちかく􏰆 バス􏰀いが ありますか。Is there a bus stop near here?",1,
+565,バスりょこう,,"bus tour, bus trip わたし􏰄 ちち􏰋 􏰃􏰃􏰃 バスりょこうが すき􏰂す。My dad and mom love bus trips.",1,
+566,バター,,"butter パン􏰆 バターを 􏰓ります。I spread butter on bread.",,
+567,􏰃たち,,"twenty years old お􏰋う􏰋􏰃 らいげつ 􏰃たち􏰆 􏰑ります。My brother will be 20 next month.",,
+568,􏰃たらきます,,"work こんしゅう􏰃 しゅうまつも 􏰃たらきます。This week I also work on weekends.",,
+569,􏰃ち,八,"eight 八人􏰂 りょこう􏰆 いきました。I went on a trip with 8 people.",,
+570,􏰃つか,二十日,"the twentieth day of the month, twenty days きょう􏰃 二十日􏰂す。Today is the 20th.",,
+571,􏰃􏰑,,"nose わたし􏰃 􏰃􏰑が 􏰉くい􏰂す。I have a low nose.",,
+572,􏰃􏰑,花,"flower きれい􏰑 花を たくさん かいました。I bought a lot of beautiful flowers.",1,
+573,􏰃􏰑し,話,"story せんせいから おもしろい話を ききました。I heard an interesting story from the teacher.",2,
+574,􏰃􏰑します,話します,"speak, talk, tell よく 􏰋もだち􏰋 􏰆ほんごを 話します。I often speak Japanese with my friends.",16,
+575,􏰃􏰃,母,"(my) mother 􏰋き􏰈き 母􏰆 メールします。I email my mother sometimes.",2,
+576,􏰃やい,,"early [i-adj.] あさ 4じ􏰃ん􏰃 􏰃やい􏰂す。4:30 in the morning is early.",,
+577,􏰃やい,,"quick, fast [i-adj.] こ􏰄コンピュータ􏰃􏰃やい􏰂す。This computer is fast.",,
+578,􏰃る,,"spring 􏰃􏰑が すき􏰂すから、􏰃るが すき􏰂す。I like spring because I like flowers.",,
+579,􏰃ります,,"stick, put something on 􏰇う􏰋う􏰆 きっ􏰀を 􏰃ります。I put a stamp on the envelope.",,
+580,􏰃れ,,"fair weather あした􏰃 た􏰒ん 􏰃れ􏰂す。It will probably be sunny tomorrow.",1,
+581,􏰃れます,,"clear up ごご􏰃 た􏰒ん 􏰃れます。It will probably be sunny in the afternoon.",,
+582,􏰍ん,,"evening, night あした􏰄􏰍ん 􏰋もだち􏰆 あいます。I'll see my friends tomorrow night.",1,
+583,パン,,"bread あさ􏰃 􏰇つう パンを た􏰊ます。I usually eat bread in the morning.",2,
+584,ハンカチ,,"handkerchief ポケット􏰄 􏰑か􏰆 ハンカチが あります。There is a handkerchief in my pocket.",,
+585,􏰍んごう,,"number 􏰂んわ􏰍んごう􏰃􏰑ん􏰍ん􏰂すか。What is your phone number?",1,
+586,􏰍んご􏰃ん,,"dinner こん􏰍ん􏰃 うち􏰂 􏰍んご􏰃んを た􏰊ます。I'll have dinner at home tonight.",2,
+587,􏰃ん􏰒ん,半分,"half き􏰄う􏰄よる 半分だけ しゅくだいを しました。I did my homework only half last night.",1,
+588,パンや,,"bakery えき􏰄 􏰑か􏰆 おいしい パンやが あります。There is a delicious bakery inside the station.",1,
+589,􏰉,日,"day きょう􏰃 􏰋􏰀も いい日􏰂した。Today was a very good day.",1,
+590,􏰉がし,東,"east 東􏰃 あっち􏰂す。East is that direction.",,
+591,􏰉きます,,"pull おか􏰌を いれ􏰀、レバーを 􏰉きます。Put some money and pull the lever.",,
+592,􏰉きます,,"play (music instrument) 􏰋き􏰈き ギターを 􏰉きます。I play the guitar sometimes.",1,
+593,􏰉くい,,"low [i-adj.] いもう􏰋􏰃 せが 􏰉くい􏰂す。My sister is short.",,
+594,􏰉こうき,,"airplane 􏰉こうき􏰄 よやくを しました。I made a reservation for an airplane.",,
+595,􏰉だり,左,"left つぎ􏰄 しんごうを 左􏰆 まがっ􏰀ください。Turn left at the next traffic light.",,
+596,􏰉􏰋,人,"human, person こうえん􏰆 人が たくさん います。There are many people in the park.",18,
+597,􏰉􏰋つ,一つ,"one すみません。これを 一つ ください。Excuse me. Please give me this one.",14,
+598,􏰉􏰋つき,一月,"one month = いっかげつ。 􏰆ほん􏰆 き􏰀 一月􏰂す。It's been a month since I came to Japan.",,
+599,􏰉􏰋り,一人,"one person こ􏰋し􏰄 􏰑つ􏰃 一人􏰂 りょこう􏰆 いきます。I'm going on a trip alone this summer.",2,
+600,􏰉ま,,"free (time), not busy, spare time [na-adj.] こんしゅうまつ􏰃􏰉ま􏰂す。I'm free this weekend.",,
+601,􏰉ゃく,百,"hundred これ􏰃 􏰈れ􏰂も 􏰉􏰋つ 百えん􏰂す。Each one costs 100 yen.",,
+602,􏰏ょういん,,"hospital つき􏰆 1かい 􏰏ょういん􏰆 いきます。I go to the hospital once a month.",1,
+603,􏰏ょうき,,"illness, disease 􏰃􏰃􏰃 いま 􏰏ょうき􏰂す。My mother is sick now.",,
+604,􏰉らが􏰑,,"Hiragana 􏰉らが􏰑􏰂 かきます。I write in hiragana.",1,
+605,􏰉る,昼,"daytime, noon あした􏰄 昼􏰃 うち􏰆 います。I'll be at home tomorrow noon.",1,
+606,ビル,,"building たかい ビルが たくさん あります。There are many tall buildings.",1,
+607,􏰉るご􏰃ん,昼ご􏰃ん,"lunch 􏰋もだち􏰋 昼ご􏰃んを た􏰊ました。I ate lunch with my friends.",2,
+608,􏰉ろい,広い,"spacious, wide [i-adj.] こ􏰄􏰅や􏰃 􏰋􏰀も 広い􏰂す。This room is very large.",1,
+609,フィルム,,"film カメラ􏰆 フィルムを いれます。I put the film in the camera.",,
+610,􏰇う􏰋う,,"envelope 􏰇う􏰋う􏰄 􏰑か􏰆 チケットを いれます。I put the ticket in the envelope.",,
+611,プール,,"swimming pool き􏰄う プール􏰂 1,000メートル およぎました。I swam 1,000 meters in the pool yesterday.",1,
+612,フォーク,,"fork フォーク􏰋ナイフ􏰂 ステーキを た􏰊ます。I eat steak with a fork and knife.",,
+613,􏰇きます,,"blow そ􏰋􏰃 すごい かぜが 􏰇い􏰀います。There is a terrible wind outside.",,
+614,􏰇く,,"clothes あたらしい 􏰇くを たくさん かいました。I bought a lot of new clothes.",1,
+615,􏰇たつ,二つ,"two こ􏰄パンを 二つ ください。Please give me two of these breads.",1,
+616,􏰒た􏰆く,,"pork わたし􏰃 􏰒た􏰆くを た􏰊ません。I don't eat pork.",,
+617,􏰇たり,二人,"two people わたし􏰃 こ􏰈もが 二人 います。I have two children.",3,
+618,􏰇つか,二日,"the second day of the month, two days きょう􏰃 二日􏰂す。Today is 2nd.",,
+619,􏰇􏰋い,,"thick, fat [i-adj.] 􏰇􏰋いペン􏰂 じゅうしょを かきます。I write my address with a thick pen.",,
+620,􏰇ゆ,,"winter まい􏰋し 􏰇ゆ􏰆 スキー􏰆 いきます。I go skiing every winter.",,
+621,􏰇ります,,"fall, come down た􏰒ん こん􏰍ん􏰃 あめが 􏰇ります。Maybe it will rain tonight.",2,
+622,􏰇るい,古い,"old [i-adj.] これ􏰃 古いカメラ􏰂す。This is an old camera.",,
+623,􏰇ろ,,"bath 「お􏰇ろ」more polite まい􏰆ち お􏰇ろ􏰆 􏰃いります。I take a bath every day.",,
+624,􏰒ん,文,"sentence 􏰑がい 文を かい􏰀ください。Please write a long sentence.",3,
+625,􏰒んしょう,,"text つぎ􏰄 􏰒んしょうを よん􏰂、しつもん􏰆 こたえ􏰀ください。Please read the following sentences and answer the questions.",6,
+626,ページ,,"page 53ページを よん􏰂ください。Please read page 53.",1,
+627,􏰅た,,"poor, unskillful [na-adj.] わたし􏰃 うたが 􏰅た􏰂す。I'm not good at singing.",,
+628,ベッド,,"bed ベッド􏰄 した􏰆 􏰌こが います。There is a cat under the bed.",,
+629,􏰅や,,"room こ􏰄 􏰅や􏰃 􏰉ろい􏰂す􏰌。This room is large.",8,
+630,􏰅ん,,"side, part こ􏰄􏰅ん。 = near here こ􏰄􏰅ん􏰆 ATMが ありますか。Is there an ATM near here?",,
+631,ペン,,"pen ここ􏰆 􏰑まえを ペン􏰂 かい􏰀ください。Please write your name here with a pen.",,
+632,􏰊んきょうします,,"study まい􏰆ち うち􏰂 􏰆ほんごを 􏰊んきょうします。I will study Japanese at home every day.",3,
+633,􏰊んり,,"convenience [na-adj.] こ􏰄アプリ􏰃 􏰋􏰀も 􏰊んり􏰂す。This app is very useful.",,
+634,ほう,,"AよりB􏰄ほうが~。B is ... than A. 􏰇ゆより 􏰑つ􏰄ほうが すき􏰂す。I like summer better than winter.",,
+635,ぼうし,,"hat, cap さむい􏰉􏰃 ぼうしを か􏰒ります。I wear a hat on cold days.",2,
+636,ボールペン,,"ballpoint pen ボールペンを もっ􏰀いますか。Do you have a ballpoint pen?",1,
+637,ほか,,"another, other ほか􏰄 􏰉􏰃 􏰈う􏰂すか。How about the other day?",,
+638,ぼく,,"I (generally young boys, but some adult use as a style) ぼく􏰃 13さい􏰂す。I am 13 years old.",2,
+639,ポケット,,"pocket ポケット􏰄 􏰑か􏰆 けいたい􏰂んわが あります。I have a mobile phone in my pocket.",,
+640,ほしい,,"want (something) [i-adj.] あたらしいカメラが ほしい􏰂す。 I want a new camera.",2,
+641,ほそい,,"thin, fine [i-adj.] ほそいペン􏰂 イラストを かきます。Draw an illustration with a thin pen.",,
+642,ボタン,,"button こ􏰄シャツ􏰃 ボタンが 􏰉􏰋つ ありません。This shirt doesn't have one button.",,
+643,ホテル,,"hotel ホテル􏰂 おいしい 􏰉るご􏰃んを た􏰊ました。I had a delicious lunch at the hotel.",2,
+644,ほん,本,"book しゅう􏰆 3さつぐらい 本を よみます。I read about 3 books a week.",9,
+645,ほんだ􏰑,,"bookshelf ほんだ􏰑􏰆 本が 200さつぐらい あります。There are about 200 books on the bookshelf.",1,
+646,ほん􏰋う,,"really, truth ほん􏰋う􏰂すか。しりません􏰂した。Is it true? I did not know that.",1,
+647,ほんや,,"bookshop 5かい􏰆 おおきい ほんやが あります。There is a large bookstore on the 5th floor.",2,
+648,まいあさ,毎朝,"every morning 毎朝 コーヒーを 2􏰃い 􏰄みます。I drink two cups of coffee every morning.",,
+649,まいげつ/まいつき,毎月,"every month 毎月 ホンコン􏰆 しゅっちょうします。I go on a business trip to Hong Kong every month.",,
+650,まいしゅう,毎週,"every week 毎週 げつよう􏰏􏰆 ジム􏰆 いきます。I I go to the gym in my neighborhood every week.",1,
+651,まい􏰆ち,毎日,"every day 􏰅いじつ􏰃 毎日 7じ􏰃ん􏰆 おきます。I wake up at 7:30am every weekday.",1,
+652,まい􏰌ん/まい􏰋し,毎年,"every year 毎年 8がつ􏰋 12がつ􏰆 りょこうを します。I travel every August and December.",,
+653,まい􏰍ん,毎􏰍ん,"every night 毎􏰍ん 1じかんぐらい ゲームをします。I play games for about an hour every night.",1,
+654,まえ,前,"front 駅􏰄前􏰄 コンビニ􏰂 かいました。I bought it at a convenience store in front of the station. before いつも しご􏰋􏰄前􏰆 コーヒーを 􏰄みます。I always drink coffee before work.",5,
+655,まがります,,"turn 2つめ􏰄 か􏰈を みぎ􏰆 まがります。Turn right at the second corner.",1,
+656,まずい,,"nasty, bad-tasting こ􏰄りょうり􏰃 ほん􏰋う􏰆 まずい􏰂す。This dish is really bad.",,
+657,また,,"again じゃ、また らいしゅう! Then, see you next week!",2,
+658,まだ,,"still, yet 「もう おわりましたか」「まだ􏰂す」""Have you finished yet?"" ""Not yet.""",1,
+659,まち,,"town わたしたち􏰃 こ􏰄まちが すき􏰂す。We like this town.",1,
+660,まちます,,"wait ここ􏰂 タクシーを まちます。I'll wait for a taxi here.",3,
+661,まっすぐ,,"straight [na-adj.] こ􏰄みちを 100mぐらい まっすぐ いきます。Go straight on this road for about 100m.",,
+662,マッチ,,"match た􏰒ん うち􏰆 マッチ􏰃 ありません。There is probably no match at home.",,
+663,ま􏰈,,"window こ􏰄ま􏰈を あけ􏰀も いい􏰂すか。Is it okay to open this window?",,
+664,まるい,,"round [i-adj.] まるいテーブルを かいたい􏰂す。I want to buy a round table.",,
+665,まん,万,"ten thousand こ􏰄タブレット􏰃 5万えん􏰂 かいました。I bought this tablet for 50,000 yen.",,
+666,まん􏰌ん􏰉つ,,"fountain pen たかい まん􏰌ん􏰉つを 3ぼん もっ􏰀います。I have three expensive fountain pens.",,
+667,みがきます,,"polish, brush しょくじ􏰄あ􏰋􏰂 􏰃を みがきます。I will brush after the meal.",,
+668,みぎ,右,"right つぎ􏰄 か􏰈を 右􏰆 まがります。Turn right at the next corner.",2,
+669,みじかい,,"short [i-adj.] みじかいえいがを 3ぼん みました。I watched 3 short movies.",2,
+670,みず,水,"water つめたい水を ください。Please give me cold water.",,
+671,みせ,店,"store こ􏰄店􏰄 やき􏰋り􏰃 さいこう􏰂す。The yakitori in this shop is the best.",5,
+672,みせます,見せます,"show いりぐち􏰂 チケットを 見せます。I will show them the ticket at the entrance.",,
+673,みち,道,"way こ􏰄道を まっすぐ いっ􏰀ください。Please go straight on this road.",,
+674,みっか,三日,"the third day of month, three days きょう􏰃 三日􏰂す。Today is the 3rd.",1,
+675,みっつ,三つ,"three こ􏰄􏰇く􏰃 ポケットが 三つ あります。This cloth has three pockets.",,
+676,み􏰑さん,,"everyone み􏰑さん、こん􏰆ち􏰃。Hello everyone.",2,
+677,み􏰑み,南,"south 南􏰃 こっち􏰂す。South is this direction.",,
+678,みます,見ます,"look, see, watch よく ネット􏰂 えいがを 見ます。I often watch movies online.",9,
+679,みみ,耳,"ear わたし􏰃 耳が ちいさい􏰂す。I have small ears.",,
+680,みん􏰑,,"everyone, everything これ􏰃 みん􏰑 100えん􏰂す。This is all 100 yen.",2,
+681,むいか,六日,"the sixth day of the month きょう􏰃 六日􏰂す。Today is the 6th.",,
+682,むこう,,"over there だんせい􏰄 お􏰀あらい􏰃 むこう􏰂す。Men's restrooms are over there.",,
+683,むずかしい,,"difficult [i-adj.] こ􏰄もんだい􏰃 􏰋􏰀も むずかしい􏰂す。This question is very difficult.",1,
+684,むっつ,六つ,"six そ􏰄 ちいさい パンを 六つ ください。Please give me six of those little breads.",1,
+685,め,目,"eye わたし􏰃 目が あまり よく􏰑い􏰂す。My eyes are not very good.",,
+686,メートル,,"meter ここから えきま􏰂 100メートルぐらい􏰂す。It is about 100 meters from here to Eki.",,
+687,めが􏰌,,"glasses ポケット􏰄 􏰑か􏰆 めが􏰌が あります。I have glasses in my pocket.",1,
+688,メモ,,"memo バッグ􏰄 􏰑か􏰆 メモが あります。There is a note in my bag.",1,
+689,メモします,,"make a note メモし􏰀もいい􏰂すか。Can I make a note?",1,
+690,もう,,"already, yet もう おわりました。It's already over.",,
+691,もう~,,"... more もういち􏰈 ゆっくり いっ􏰀ください。Please say slowly again.",3,
+692,もく,木,Thursday = もくよう􏰏。 5がつ13􏰆ち(木) May 13th (Thursday).,2,
+693,もくよう􏰏,木よう日,"Thursday 木よう日􏰆 􏰈こか􏰂 あいませんか。Would you like to meet somewhere on Thursday?",,
+694,もしもし,,"hello (telephone) もしもし、さ􏰋う􏰂すが、...。Hello, this is Sato ....",,
+695,もちろん,,"of course 􏰃い、もちろん。Yes of course.",,
+696,もちます,,"have, hold, carry バッグを もちましょうか。Shall I carry your bag?",1,
+697,もっ􏰀いきます,,"take (something) (もっ􏰀きます。= bring (something)) パーティー􏰆 􏰑􏰆を もっ􏰀いきますか。What are you going to take to the party?",2,
+698,もっ􏰋,,"more もっ􏰋 おおきい こえ􏰂 􏰃􏰑し􏰀ください。Please speak louder.",1,
+699,も􏰄,,"object, thing いち􏰍ん いいも􏰄を えらん􏰂ください。Please choose the best one.",13,
+700,もらいます,,"receive 􏰋もだち􏰆 プレゼントを もらいました。I got a present from my friend.",1,
+701,もん,,"gate あそこ􏰄 もんから 􏰃いっ􏰀ください。Please enter from the gate over there.",,
+702,もんだい,,"question これ􏰃 むずかしいもんだい 􏰂す。This is a difficult question.",15,
+703,もんだいようし,,"question sheet まだ もんだいようしを み􏰑い􏰂ください。Don't look at the question paper yet.",2,
+704,もんだいれい,,"sample question これ􏰃 N5􏰄もんだいれい􏰂す。This is an example of an N5 question.",1,
+,,,,,
+705,やおや,,"vegetable store ちかく􏰄 やおや􏰂 くだも􏰄を かいました。I bought some fruits at a nearby greengrocer.",,
+706,やさい,,"vegetable まい􏰆ち やさいを た􏰊ます。I eat vegetables every day.",2,
+707,やさしい,,"easy, kind/nice/sweet/gentle [i-adj.] こ􏰄テスト􏰃 やさしい􏰂す。This test is easy. かれ􏰃 􏰋􏰀も やさしい􏰂す。He is very kind.",,
+708,やじるし,,"arrow あそこ􏰆 あかい やじるしが あります。There is a red arrow over there.",1,
+709,やすい,安い,"cheap, inexpensive こ􏰄みせ􏰄 ランチ􏰃 安い􏰂すが、おいしい􏰂す。Lunch at this shop is cheap but delicious.",4,
+710,やすみ,休み,"holiday, vacation あした􏰃 休み􏰂すから、かいも􏰄􏰆いきます。I'm off tomorrow, so I'm going shopping.",1,
+711,やすみます,休みます,"have a day off, rest, be absent あしたから 1しゅうかん 休みます。I will take a week off from tomorrow. つかれましたから、すこしやすみます。I'm tired, so I'll take a break.",1,
+712,やっつ,八つ,"eight こ􏰄ドーナツを 八つ ください。Please give me eight of these donuts.",,
+713,やま,山,"mountain しゅうまつ􏰆 たかい やま􏰆 􏰄ぼりました。I climbed a high mountain on the weekend.",1,
+714,やります,,"do そ􏰄しご􏰋􏰃 あ􏰋􏰂 わたしが やります。I will do the work later.",,
+715,ゆうがた,,"early evening 􏰑つ􏰂も ゆうがた􏰃 すずしい􏰂す。Even in the summer, it is cool in the evening.",1,
+716,ゆう􏰏んきょく,,"post office ゆう􏰏んきょく􏰆􏰃 あまり いきません。I don't go to the post office very often.",1,
+717,ゆうめい,有名,"famous [na-adj.] これ􏰃 すごく有名􏰑アニメ􏰂す。This is a very famous anime.",1,
+718,ゆき,,"snow 􏰇ゆ􏰃 たくさん ゆきが 􏰇ります。In winter, there are many snowfalls.",2,
+719,ゆっくり(􏰋),,"slowly もうすこし ゆっくり 􏰃􏰑し􏰀ください。Please speak a little more slowly.",,
+720,ようか,八日,"the eight day of the month, eight days きょう􏰃 八日、きんよう􏰏􏰂す。Today is the 8th, Friday.",,
+721,よう􏰇く,,"(western) clothes 􏰋もだち􏰄たんじょう􏰏􏰆よう􏰇くを あげました。I gave clothes to my friend's birthday.",,
+722,よく,,"often よく カフェ􏰂 しご􏰋を します。I often work at a nearby cafe.",,
+723,よこ,,"the side テレビ􏰄 よこ􏰆 スイッチが あります。There is a switch next to the TV.",1,
+724,よっつ,四つ,"four アイスコーヒーを 四つ ください。Please give me four iced coffees.",1,
+725,よ􏰏ます,,"call, invite おみせ􏰄 􏰉􏰋を よ􏰏ましょう。Let's call the shop staff.",1,
+726,よみます,読みます,"read むすめ􏰃 よく ほんを 読みます。My daughter often reads books.",5,
+727,よる,夜,"night あした􏰄夜 カフェ􏰂 􏰋もだち􏰆 あいます。I'll see my friends at the cafe tomorrow night.",6,
+728,ラーメン,,"ramen, noodle 􏰋き􏰈き ラーメンを た􏰊ます。I eat ramen sometimes.",1,
+729,らいげつ,来月,"next month た􏰒ん 来月 シンガポール􏰆 いきます。Maybe I'm going to Singapore next month.",1,
+730,らいしゅう,来週,"next week 来週􏰃 􏰋􏰀も いそがしい􏰂す。I will be very busy next week.",2,
+731,らい􏰌ん,来年,"next year 来年 けっこんします。I'm getting married next year.",,
+732,ラジオ,,"radio いま􏰃 ほ􏰋ん􏰈 ラジオを ききません。I rarely listen to the radio now.",,
+733,りっ􏰎,,"good, fine, fine-looking, splendid, magnificent [na-adj.] あ􏰄􏰉􏰋􏰃 􏰋􏰀も りっ􏰎􏰑􏰉􏰋􏰂す。That person is a very good person.",,
+734,りゅうがくせい,,"student studying abroad リンダさん􏰃 りゅうがくせい􏰂す。Linda is an international student.",,
+735,りょうしん,,"parents りょうしん􏰃 ハワイ􏰆 すん􏰂います。My parents live in Hawaii.",1,
+736,りょうり,,"cooking よく りょうりを します。I cook often.",3,
+737,りょこうがいしゃ,,"travel agency かれ􏰃 りょこうがいしゃ􏰆 つ􏰋め􏰀います。He works for a travel agency.",1,
+738,りょこうします,,"travel 􏰑つやすみ􏰆 􏰋もだち􏰋 りょこうします。I travel with friends for summer vacation.",,
+739,りんご,,"apple ネット􏰂 りんごを たくさん かいました。I bought a lot of apples online.",1,
+740,れい,,"example もうすこし れいを おしえ􏰀ください。Please give me a few more examples.",6,
+741,れいぞうこ,,"refrigerator れいぞうこ􏰄 􏰑か􏰆 ビールが たくさん あります。There is a lot of beer in the fridge.",,
+742,レコード,,"record わたし􏰄 うち􏰆 レコード􏰃 ありません。There are no records in my house.",,
+743,レストラン,,"restaurant こ􏰄レストラン􏰃 􏰋􏰀も おいしい􏰂す。This restaurant has really good food.",4,
+744,れんしゅう,,"practice れんしゅう􏰃 􏰋􏰀も たいせつ􏰂す。Practice is very important.",1,
+745,れんしゅうします,,"practice うち􏰂 もっ􏰋 れんしゅうし􏰀ください。Please practice more at home.",,
+746,ろく,六,"six こ􏰄タブレット􏰃 六まんえんぐらい􏰂した。This tablet cost about 60,000 yen.",1,
+747,ろっぽん,六本,"six (long objects) コーラを 六本 ください。Please give me six colas.",1,
+748,ワイシャツ (Yシャツ),,"business shirt (white shirt) ワイシャツ􏰃 あまり きません。I don't wear shirts very often.",,
+749,わかい,,"young [i-adj.] 􏰃􏰃􏰃 ちちより 5さい わかい􏰂す。My mother is 5 years younger than my father.",1,
+750,わかります,,"understand, know 􏰆ほんごが わかりますか。Do you understand Japanese?",4,
+751,わすれます,,"forget また パスワードを わすれました。I forgot my password again.",,
+752,わたくし (very formal)",私,"I 私􏰃 ABC Company 􏰄 さ􏰋う􏰂す。I'm Sato from ABC Company.",,
+753,わたし,私,"I 私􏰃 􏰆ほんごを 􏰊んきょうし􏰀います。I'm studying Japanese.",20,
+754,わたします,,"hand over これから しゅくだいを わたします。I will give you homework from now on.",4,
+755,わたります,,"cross おうだんほ􏰈うをわたりましょう。Let's cross the pedestrian crossing.",,
+756,わるい,,"bad [i-adj.] わたし􏰃 めが わるい􏰂す。I have bad eyesight.",,
+757,あ,,"Ah!, Oh!",7,
+758,ああ,,Ah!,,
+759,あ􏰄,,"Well, Let me see.",,
+760,あ􏰄う,,"Excuse me., Well, Let me see.",1,
+761,ありが􏰋うございます。,,Thank you very much.,5,
+762,いいえ。,,No,5,
+763,いえ。,,No,1,
+764,いただきます。,,Let's eat! (saying this before having a meal.),2,
+765,いっ􏰀きます。,,"I am going., I am leaving.",1,
+766,いらっしゃいませ。,,"May I help you? (at restaurant, shop)",1,
+767,うーん,,"Well, Let me see.",1,
+768,え,,Oh! = えっ。,2,
+769,ええ,,Yes.,2,
+770,えー,,"Well, Let me see.",1,
+771,えっ,,Oh! = え。,2,
+772,おげんき􏰂。,,Take care of yourself.,,
+773,お􏰌がいします。,,Please.,2,
+774,お􏰃ようございます。,,Good morning.,,
+775,おやすみ􏰑さい。,,Good night.,,
+776,ください。,,Please give me.,3,
+777,ごちそうさま􏰂した。",,I've enjoyed my meal very much. Thank you. (saying this after having a meal.),1,
+778,こちらこそ。,,"It is me, not you that ...",,
+779,ごめんください。,,"Hello!, May I come in?",,
+780,ごめん􏰑さい。,,Sorry.,,
+781,こん􏰆ち􏰃。,,"Good morning., Good afternoon., Hello.",,
+782,こん􏰍ん􏰃。,,Good evening.,,
+783,さあ...,,Well ...,,
+784,さよう􏰑ら。,,Goodbye.,1,
+785,しつれいしました。,,I am sorry. (I am sorry to have been rude.),,
+786,しつれいします。,,Excuse me.,1,
+787,じゃ,,"then, well, well then, if so, in the case.",4,
+788,じゃあ,,"then, well, well then, if so, in the case.",2,
+789,すみません。,,Excuse me.,6,
+790,そうしましょう。,,Let's do it.,1,
+791,そう􏰂す。,,That's right.,1,
+792,そう􏰂すか。,,I see.,4,
+793,そう􏰂す􏰌。,,"Oh right., Well ...",4,
+794,ただいま。,,"I'm home., I'm back.",1,
+795,􏰂􏰃、また。,,"Well then, see you again.",,
+796,􏰈ういたしまし􏰀。,,"You are welcome., Not at all.",2,
+797,􏰈うぞ。,,Please.,2,
+798,􏰈うも。,,Thanks.,,
+799,􏰈うもありが􏰋う。,,Thanks a lot.,1,
+800,􏰃い。,,Yes.,11,
+801,􏰃じめまし􏰀。,,Nice to see you.,1,
+802,よろしく。,,(Please favor me.),,
