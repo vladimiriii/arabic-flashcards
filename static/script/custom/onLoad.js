@@ -1,7 +1,7 @@
 /*-----------------------------------
 Global Variables
 -----------------------------------*/
-var languages = ["japanese", "english", "transcribed"],
+var languages = ["japanese", "english"],
     language = "japanese",
     category = "All",
     correct = 0,
@@ -147,6 +147,7 @@ function populateCards(array, front) {
     for (var index = 0; index < (currentIds.length); ++index) {
         id = currentIds[index];
         record = $.grep(array, function(e){ return e.id == id; });
+        console.log(record[0][front])
         frontText = record[0][front];
         backText1 = record[0][back_entries[0]];
         backText2 = record[0][back_entries[1]];
@@ -166,7 +167,7 @@ function populateCards(array, front) {
             $(backHtmlID).prepend('<p class="card-text" lang="ar" id="card' + String(index + 1) + '-bt1">' +  backText1 + '</p><p class="card-text" lang="en" id="card' + String(index + 1) + '-bt2">' +  backText2 + '</p>');
         };
         // Reduce Font Size for Longer Strings
-        resizeText(String(index + 1), frontText, backText1, backText2);
+        //resizeText(String(index + 1), frontText, backText1, backText2);
 
     };
 };

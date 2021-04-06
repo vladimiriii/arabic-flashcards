@@ -10,10 +10,10 @@ file = open("N5.csv", "r")
 json_string = ''
 for line in file.readlines():
     try:
-        t = { 'word': line.split(',')[1],
+        t = { 'japanese': line.split(',')[1],
               'kanji': line.split(',')[2],
               'id': line.split(',')[0],
-              'meaning': line.split(',')[4],
+              'english': line.split(',')[4],
               'category': line.split(',')[3]}
     except Exception:
         print line + " is wrongly formatted" 
